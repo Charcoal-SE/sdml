@@ -1,3 +1,7 @@
+## sdml/prepare.py
+# The purpose of this script is to take data extracted by sdml/analyze.py and use it to create probability lists. This
+# leaves us with `P(w0..wn)` from the Naive Bayes formula. The full formula is explained in README.
+
 from glob import glob
 import cPickle as pickle
 import re

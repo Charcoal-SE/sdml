@@ -19,3 +19,28 @@ When those two scripts complete, you have the data set up that the classifier ne
 classifier now (which takes data from the Stack Exchange websocket, like Smokey does):
 
     python2 ws.py
+
+### Naive Bayes formula
+*This section is a shortened explanation of the classification algorithm and its math. If you don't care about how it works,
+ feel free to skip this section entirely.*
+
+This project uses a simplified version of the Naive Bayes algorithm to classify posts. NB is, essentially, basic math operations.
+The algorithm used here works like this:
+
+- We have a *prior probability* of a post being S (spam) or H (ham). If 95% of all posts are legitimate, and 5% are spam, then our prior
+  probability for Ham is 0.95, and for Spam is 0.05. We represent this as `p(S) = 0.05` and `p(H) = 0.95`.
+- We also have a list of probabilities that a given word will appear in a spam post, and a ham post. Taking the word "muscle" as an example,
+  we might see that it occurs in ham posts 0.00217% of the time, and in spam posts it comes up 5% of the time. As probabilities, those are
+  0.0000217 and 0.05. We work that probability out for *every* word that we've ever seen in any post.
+- When we get a post to classify, we split it up into words. For each word, we look up the probability that it occurs in spam and ham. We
+  call the first word `w0`, and the probabilities that it occurs in spam or ham are respectively `Ps(w0)` and `Ph(w0)`.
+- Once we've got the probabilities for every word, we multiply them together to come up with a probability that the entire text would occur
+  as spam or as ham. We call those, respectively, `PS(w0..wn)` and `PH(w0..wn)` - these are the *text probabilities*.
+- We work out an *initial probability* that the post is spam or ham by multiplying our text probabilities by their respective prior
+  probabilities. The initial probability of a post being spam is therefore `p(S) * PS(w0..wn)`. We can represent both of these calculations
+  as formulae: `IP(S) = p(S) * PS(w0..wn)` and `IP(H) = p(h) * PH(w0..wn)`
+- Probabilities should add up to 1. In most cases, our initial probability figures *don't*, so we need to *normalize* them so they do. We
+  calculate a *normalization factor*, represented as `Fn`, by adding both initial probabilities together: `Fn = IP(S) + IP(H)`
+- To normalize, we need to divide our initial probabilities by this normalization factor, to come up with final probabilities.
+  `P(S) = IP(S) / Fn` and `P(H) = IP(H) / Fn`.
+- Now classification is simple: if `P(S) > P(H)`, the post is spam.
