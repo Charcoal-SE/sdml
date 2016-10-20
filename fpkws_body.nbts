@@ -317,30 +317,30 @@ Are my mathematics correct?</p>
 thanks a lot .
 here is the code :</p>
 
-<p><div class="snippet" data-lang="js" data-hide="false" data-console="true">
-<div class="snippet-code">
-<pre class="snippet-code-html lang-html prettyprint-override"><code><div style="max-height:90px;margin-bottom:20px;display:block;">
-  
-<p style="max-height:90px;width:330px;float:left;">
-<a href="http://moroccanattractions.com">
-  
-<img src="http://moroccanattractions.com/wp-content/uploads/2016/06/logo2blanc.png"/>
-  
-  </a>
-  </p>
-  
-<p style="float:right;">
-<a href="http://www.anrdoezrs.net/click-8091447-12540388-1458834663000" target="_top">
-  
-<img src="http://www.ftjcfx.com/image-8091447-12540388-1458834663000" width="728" max-height="90" alt="Male Enhancement Supplement" border="0"/>
-  
- </a>
-</p>
-
-
-</div></code></pre>
-</div>
-</div>
+<p><div class="snippet" data-lang="js" data-hide="false" data-console="true">
+<div class="snippet-code">
+<pre class="snippet-code-html lang-html prettyprint-override"><code><div style="max-height:90px;margin-bottom:20px;display:block;">
+  
+<p style="max-height:90px;width:330px;float:left;">
+<a href="http://moroccanattractions.com">
+  
+<img src="http://moroccanattractions.com/wp-content/uploads/2016/06/logo2blanc.png"/>
+  
+  </a>
+  </p>
+  
+<p style="float:right;">
+<a href="http://www.anrdoezrs.net/click-8091447-12540388-1458834663000" target="_top">
+  
+<img src="http://www.ftjcfx.com/image-8091447-12540388-1458834663000" width="728" max-height="90" alt="Male Enhancement Supplement" border="0"/>
+  
+ </a>
+</p>
+
+
+</div></code></pre>
+</div>
+</div>
 </p>
  <p>E/AndroidRuntime: FATAL EXCEPTION: GLThread 1762
                                                    Process: mmadapps.com.webfactorybusiness, PID: 11953
@@ -2412,185 +2412,185 @@ Here is my fiddle example.</p>
 
 <p><a href="http://jsfiddle.net/kn42tj3e/" rel="nofollow"><code>jsFiddle Link</code></a></p>
 
-<p><div class="snippet" data-lang="js" data-hide="false">
-<div class="snippet-code">
-<pre class="snippet-code-js lang-js prettyprint-override"><code>handleAlphaOrder = function() {
-    var fieldItem = $('.field_item');
-    var sorted = $(fieldItem.toArray().sort(function(a, b) {
-        return $(a).find('label').text() > $(b).find('label').text()
-    }));
-
-    fieldItem.each(function(i) {
-        $(this).after(sorted.eq(i));
-    });
-};</code></pre>
-<pre class="snippet-code-html lang-html prettyprint-override"><code><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<div class="field_item">
-    <input type="radio" name="category" value="1" id="productspage-category-women">
-    <label for="productspage-category-women">Women</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="1-2" id="productspage-category-womenbags">
-    <label for="productspage-category-womenbags">Women's bags</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="1-4" id="productspage-category-jewellery">
-    <label for="productspage-category-jewellery">Jewellery</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="2" id="productspage-category-men">
-    <label for="productspage-category-men">Men</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="2-2" id="productspage-category-menbags">
-    <label for="productspage-category-menbags">Men's bags</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="2-4" id="productspage-category-menshoes">
-    <label for="productspage-category-menshoes">Men's shoes</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="3-1" id="productspage-category-baby">
-    <label for="productspage-category-baby">Baby</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="3-3" id="productspage-category-girl">
-    <label for="productspage-category-girl">Girl</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="4" id="productspage-category-home">
-    <label for="productspage-category-home">Home</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="4-2" id="productspage-category-bed">
-    <label for="productspage-category-bed">Bed</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="4-5" id="productspage-category-kitchen">
-    <label for="productspage-category-kitchen">Kitchen</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="4-7" id="productspage-category-lighting">
-    <label for="productspage-category-lighting">Lighting</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="4-10" id="productspage-category-outdoor">
-    <label for="productspage-category-outdoor">Outdoor</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="5-1" id="productspage-category-haircare">
-    <label for="productspage-category-haircare">Hair care</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="5-3" id="productspage-category-mengrooming">
-    <label for="productspage-category-mengrooming">Men's grooming</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="5-6" id="productspage-category-skincare">
-    <label for="productspage-category-skincare">Skincare</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="6" id="productspage-category-lifestyle">
-    <label for="productspage-category-lifestyle">Lifestyle</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="6-4" id="productspage-category-foodsupplements">
-    <label for="productspage-category-foodsupplements">Food supplements</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="6-5" id="productspage-category-treatments">
-    <label for="productspage-category-treatments">Treatments</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="6-6" id="productspage-category-electronics">
-    <label for="productspage-category-electronics">Electronics</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="" id="productspage-category-all">
-    <label for="productspage-category-all">All</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="1-1" id="productspage-category-womenaccessories">
-    <label for="productspage-category-womenaccessories">Women's accessories</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="1-3" id="productspage-category-womenclothing">
-    <label for="productspage-category-womenclothing">Women's clothing</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="1-5" id="productspage-category-womenshoes">
-    <label for="productspage-category-womenshoes">Women's shoes</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="2-1" id="productspage-category-menaccessories">
-    <label for="productspage-category-menaccessories">Men's accessories</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="2-3" id="productspage-category-menclothing">
-    <label for="productspage-category-menclothing">Men's clothing</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="3" id="productspage-category-kids">
-    <label for="productspage-category-kids">Kids</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="3-2" id="productspage-category-boy">
-    <label for="productspage-category-boy">Boy</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="3-4" id="productspage-category-toys">
-    <label for="productspage-category-toys">Toys</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="4-1" id="productspage-category-bath">
-    <label for="productspage-category-bath">Bath</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="4-3" id="productspage-category-childrenhome">
-    <label for="productspage-category-childrenhome">Children's home</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="4-6" id="productspage-category-furniture">
-    <label for="productspage-category-furniture">Furniture</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="4-11" id="productspage-category-decor">
-    <label for="productspage-category-decor">Decor</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="5" id="productspage-category-beauty">
-    <label for="productspage-category-beauty">Beauty</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="5-2" id="productspage-category-makeup">
-    <label for="productspage-category-makeup">Makeup</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="5-5" id="productspage-category-perfume">
-    <label for="productspage-category-perfume">Perfume</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="5-8" id="productspage-category-healthbody">
-    <label for="productspage-category-healthbody">Health &amp; body</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="6-1" id="productspage-category-fooddrinks">
-    <label for="productspage-category-fooddrinks">Food &amp; drinks</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="6-2" id="productspage-category-yoga">
-    <label for="productspage-category-yoga">Yoga</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="6-3" id="productspage-category-gadgets">
-    <label for="productspage-category-gadgets">Gadgets</label>
-</div>
-<div class="field_item">
-    <input type="radio" name="category" value="6-7" id="productspage-category-fitness">
-    <label for="productspage-category-fitness">Fitness</label>
-</div></code></pre>
-</div>
-</div>
+<p><div class="snippet" data-lang="js" data-hide="false">
+<div class="snippet-code">
+<pre class="snippet-code-js lang-js prettyprint-override"><code>handleAlphaOrder = function() {
+    var fieldItem = $('.field_item');
+    var sorted = $(fieldItem.toArray().sort(function(a, b) {
+        return $(a).find('label').text() > $(b).find('label').text()
+    }));
+
+    fieldItem.each(function(i) {
+        $(this).after(sorted.eq(i));
+    });
+};</code></pre>
+<pre class="snippet-code-html lang-html prettyprint-override"><code><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<div class="field_item">
+    <input type="radio" name="category" value="1" id="productspage-category-women">
+    <label for="productspage-category-women">Women</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="1-2" id="productspage-category-womenbags">
+    <label for="productspage-category-womenbags">Women's bags</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="1-4" id="productspage-category-jewellery">
+    <label for="productspage-category-jewellery">Jewellery</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="2" id="productspage-category-men">
+    <label for="productspage-category-men">Men</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="2-2" id="productspage-category-menbags">
+    <label for="productspage-category-menbags">Men's bags</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="2-4" id="productspage-category-menshoes">
+    <label for="productspage-category-menshoes">Men's shoes</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="3-1" id="productspage-category-baby">
+    <label for="productspage-category-baby">Baby</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="3-3" id="productspage-category-girl">
+    <label for="productspage-category-girl">Girl</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="4" id="productspage-category-home">
+    <label for="productspage-category-home">Home</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="4-2" id="productspage-category-bed">
+    <label for="productspage-category-bed">Bed</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="4-5" id="productspage-category-kitchen">
+    <label for="productspage-category-kitchen">Kitchen</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="4-7" id="productspage-category-lighting">
+    <label for="productspage-category-lighting">Lighting</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="4-10" id="productspage-category-outdoor">
+    <label for="productspage-category-outdoor">Outdoor</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="5-1" id="productspage-category-haircare">
+    <label for="productspage-category-haircare">Hair care</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="5-3" id="productspage-category-mengrooming">
+    <label for="productspage-category-mengrooming">Men's grooming</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="5-6" id="productspage-category-skincare">
+    <label for="productspage-category-skincare">Skincare</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="6" id="productspage-category-lifestyle">
+    <label for="productspage-category-lifestyle">Lifestyle</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="6-4" id="productspage-category-foodsupplements">
+    <label for="productspage-category-foodsupplements">Food supplements</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="6-5" id="productspage-category-treatments">
+    <label for="productspage-category-treatments">Treatments</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="6-6" id="productspage-category-electronics">
+    <label for="productspage-category-electronics">Electronics</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="" id="productspage-category-all">
+    <label for="productspage-category-all">All</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="1-1" id="productspage-category-womenaccessories">
+    <label for="productspage-category-womenaccessories">Women's accessories</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="1-3" id="productspage-category-womenclothing">
+    <label for="productspage-category-womenclothing">Women's clothing</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="1-5" id="productspage-category-womenshoes">
+    <label for="productspage-category-womenshoes">Women's shoes</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="2-1" id="productspage-category-menaccessories">
+    <label for="productspage-category-menaccessories">Men's accessories</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="2-3" id="productspage-category-menclothing">
+    <label for="productspage-category-menclothing">Men's clothing</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="3" id="productspage-category-kids">
+    <label for="productspage-category-kids">Kids</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="3-2" id="productspage-category-boy">
+    <label for="productspage-category-boy">Boy</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="3-4" id="productspage-category-toys">
+    <label for="productspage-category-toys">Toys</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="4-1" id="productspage-category-bath">
+    <label for="productspage-category-bath">Bath</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="4-3" id="productspage-category-childrenhome">
+    <label for="productspage-category-childrenhome">Children's home</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="4-6" id="productspage-category-furniture">
+    <label for="productspage-category-furniture">Furniture</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="4-11" id="productspage-category-decor">
+    <label for="productspage-category-decor">Decor</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="5" id="productspage-category-beauty">
+    <label for="productspage-category-beauty">Beauty</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="5-2" id="productspage-category-makeup">
+    <label for="productspage-category-makeup">Makeup</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="5-5" id="productspage-category-perfume">
+    <label for="productspage-category-perfume">Perfume</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="5-8" id="productspage-category-healthbody">
+    <label for="productspage-category-healthbody">Health &amp; body</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="6-1" id="productspage-category-fooddrinks">
+    <label for="productspage-category-fooddrinks">Food &amp; drinks</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="6-2" id="productspage-category-yoga">
+    <label for="productspage-category-yoga">Yoga</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="6-3" id="productspage-category-gadgets">
+    <label for="productspage-category-gadgets">Gadgets</label>
+</div>
+<div class="field_item">
+    <input type="radio" name="category" value="6-7" id="productspage-category-fitness">
+    <label for="productspage-category-fitness">Fitness</label>
+</div></code></pre>
+</div>
+</div>
 </p>
  <p>Here is my collection which has documents
 { "_id" : ObjectId("571f3d6bce5c08083829e11f"), "PT" : "S00081", "SEX" : "Female", "DOB" : ISODate("1976-02-01T00:00:00Z"), "Ethinicity" : "ASIAN - ASIAN INDIAN", "Age" : 40 }</p>
@@ -4720,12 +4720,12 @@ for eg : Puma, Nike are similar brands to Adidas
 for eg : Puma, Nike are similar brands to Adidas
  I hate to ask, but with all the disgusting porn out there how is it legal that some is filmed in public? For example, in Eastern countries such as Hungary do they not have indecent exposure/public ... My app crashes on reminder button. I am posting the code where my log cat shows error. Kindly tell the solution as I am new in android.
 
-
-
-package remindme;
-
-import com.example.dietplan.R;
-
+
+
+package remindme;
+
+import com.example.dietplan.R;
+
 ... I've heard claims that the average person uses only 10% of their "brain power," whatever that means. The implication, though, is that there the majority of our brain's potential is untapped. However, ... <p>I don't understand what this "in order to" explains in the following sentence:</p>
 
 <blockquote>
@@ -7241,262 +7241,262 @@ for i in listIterator:
 
 <p><a href="http://jsfiddle.net/8zzhydLn/" rel="nofollow">Fiddle</a></p>
 
-<p><div class="snippet" data-lang="js" data-hide="false">
-<div class="snippet-code">
-<pre class="snippet-code-css lang-css prettyprint-override"><code>/*
-	Max width before this PARTICULAR table gets nasty
-	This query will take effect for any screen smaller than 760px
-	and also iPads specifically.
-	*/
-	@media
-	only screen and (max-width: 760px),
-	(min-device-width: 768px) and (max-device-width: 1024px)  {
-
-		/* Force table to not be like tables anymore */
-		table, thead, tbody, th, td, tr {
-			display: block;
-		}
-
-		/* Hide table headers (but not display: none;, for accessibility) */
-		thead tr {
-			position: absolute;
-			top: -9999px;
-			left: -9999px;
-		}
-
-		tr { border: 1px solid #ccc; }
-
-		td {
-			/* Behave  like a "row" */
-			border: none;
-			border-bottom: 1px solid #eee;
-			position: relative;
-			padding-left: 50%;
-		}
-
-		td:before {
-			/* Now like a table header */
-			position: absolute;
-			/* Top/left values mimic padding */
-			top: 6px;
-			left: 6px;
-			width: 45%;
-			padding-right: 10px;
-			white-space: nowrap;
-		}
-
-		/*
-		Label the data
-		*/
-		td:nth-of-type(1):before { content: "First Name"; }
-		td:nth-of-type(2):before { content: "Last Name"; }
-		td:nth-of-type(3):before { content: "Job Title"; }
-		td:nth-of-type(4):before { content: "Favorite Color"; }
-		td:nth-of-type(5):before { content: "Wars of Trek?"; }
-		td:nth-of-type(6):before { content: "Porn Name"; }
-		td:nth-of-type(7):before { content: "Date of Birth"; }
-		td:nth-of-type(8):before { content: "Dream Vacation City"; }
-		td:nth-of-type(9):before { content: "GPA"; }
-		td:nth-of-type(10):before { content: "Arbitrary Data"; }
-	}
-
-	/* Smartphones (portrait and landscape) ----------- */
-	@media only screen
-	and (min-device-width : 320px)
-	and (max-device-width : 480px) {
-		body {
-			padding: 0;
-			margin: 0;
-			width: 320px; }
-		}
-
-	/* iPads (portrait and landscape) ----------- */
-	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-		body {
-			width: 495px;
-		}
-	}
-
-
-
-* {
-		margin: 0;
-		padding: 0;
-	}
-	body {
-		overflow-x: hidden;
-	}
-	#demo-top-bar {
-		text-align: left;
-		background: #222;
-		position: relative;
-		zoom: 1;
-		width: 100% !important;
-		z-index: 6000;
-		padding: 20px 0 20px;
-	}
-	#demo-bar-inside {
-		width: 960px;
-		margin: 0 auto;
-		position: relative;
-		overflow: hidden;
-	}
-	#demo-bar-buttons {
-		padding-top: 10px;
-		float: right;
-	}
-	#demo-bar-buttons a {
-		font-size: 12px;
-		margin-left: 20px;
-		color: white;
-		margin: 2px 0;
-		text-decoration: none;
-		font: 14px "Lucida Grande", Sans-Serif !important;
-	}
-	#demo-bar-buttons a:hover,
-	#demo-bar-buttons a:focus {
-		text-decoration: underline;
-	}
-	#demo-bar-badge {
-		display: inline-block;
-		width: 302px;
-		padding: 0 !important;
-		margin: 0 !important;
-		background-color: transparent !important;
-	}
-	#demo-bar-badge a {
-		display: block;
-		width: 100%;
-		height: 38px;
-		border-radius: 0;
-		bottom: auto;
-		margin: 0;
-		background: url(/images/examples-logo.png) no-repeat;
-		background-size: 100%;
-		overflow: hidden;
-		text-indent: -9999px;
-	}
-	#demo-bar-badge:before, #demo-bar-badge:after {
-		display: none !important;
-	}
-
-* { 
-	margin: 0; 
-	padding: 0; 
-}
-body { 
-	font: 14px/1.4 Georgia, Serif; 
-}
-#page-wrap {
-	margin: 50px;
-}
-p {
-	margin: 20px 0; 
-}
-
-	/* 
-	Generic Styling, for Desktops/Laptops 
-	*/
-	table { 
-		width: 100%; 
-		border-collapse: collapse; 
-	}
-	/* Zebra striping */
-	tr:nth-of-type(odd) { 
-		background: #eee; 
-	}
-	th { 
-		background: #333; 
-		color: white; 
-		font-weight: bold; 
-	}
-	td, th { 
-		padding: 6px; 
-		border: 1px solid #ccc; 
-		text-align: left; 
-	}</code></pre>
-<pre class="snippet-code-html lang-html prettyprint-override"><code><div id="page-wrap">
-
-	<table>
-		<thead>
-		<tr>
-			<th>First Name</th>
-			<th>Last Name</th>
-			<th>Job Title</th>
-			<th>Favorite Color</th>
-			<th>Wars or Trek?</th>
-			<th>Porn Name</th>
-			<th>Date of Birth</th>
-			<th>Dream Vacation City</th>
-			<th>GPA</th>
-			<th>Arbitrary Data</th>
-		</tr>
-		</thead>
-		<tbody>
-		<tr>
-			<td>James</td>
-			<td>Matman</td>
-			<td>Chief Sandwich Eater</td>
-			<td>Lettuce Green</td>
-			<td>Trek</td>
-			<td>Digby Green</td>
-			<td>January 13, 1979</td>
-			<td>Gotham City</td>
-			<td>3.1</td>
-			<td>RBX-12</td>
-		</tr>
-		<tr>
-		  <td>The</td>
-		  <td>Tick</td>
-		  <td>Crimefighter Sorta</td>
-		  <td>Blue</td>
-		  <td>Wars</td>
-		  <td>John Smith</td>
-		  <td>July 19, 1968</td>
-		  <td>Athens</td>
-		  <td>N/A</td>
-		  <td>Edlund, Ben (July 1996).</td>
-		</tr>
-		<tr>
-		  <td>Jokey</td>
-		  <td>Smurf</td>
-		  <td>Giving Exploding Presents</td>
-		  <td>Smurflow</td>
-		  <td>Smurf</td>
-		  <td>Smurflane Smurfmutt</td>
-		  <td>Smurfuary Smurfteenth, 1945</td>
-		  <td>New Smurf City</td>
-		  <td>4.Smurf</td>
-		  <td>One</td>
-		</tr>
-		<tr>
-		  <td>Cindy</td>
-		  <td>Beyler</td>
-		  <td>Sales Representative</td>
-		  <td>Red</td>
-		  <td>Wars</td>
-		  <td>Lori Quivey</td>
-		  <td>July 5, 1956</td>
-		  <td>Paris</td>
-		  <td>3.4</td>
-		  <td>3451</td>
-		</tr>
-		<tr>
-		  <td>Captain</td>
-		  <td>Cool</td>
-		  <td>Tree Crusher</td>
-		  <td>Blue</td>
-		  <td>Wars</td>
-		  <td>Steve 42nd</td>
-		  <td>December 13, 1982</td>
-		  <td>Las Vegas</td>
-		  <td>1.9</td>
-		  <td>Under the couch</td>
-		</tr>
-		</tbody>
-	</table></code></pre>
-</div>
-</div>
+<p><div class="snippet" data-lang="js" data-hide="false">
+<div class="snippet-code">
+<pre class="snippet-code-css lang-css prettyprint-override"><code>/*
+	Max width before this PARTICULAR table gets nasty
+	This query will take effect for any screen smaller than 760px
+	and also iPads specifically.
+	*/
+	@media
+	only screen and (max-width: 760px),
+	(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+		/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr {
+			display: block;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+		tr { border: 1px solid #ccc; }
+
+		td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+		}
+
+		td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 6px;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}
+
+		/*
+		Label the data
+		*/
+		td:nth-of-type(1):before { content: "First Name"; }
+		td:nth-of-type(2):before { content: "Last Name"; }
+		td:nth-of-type(3):before { content: "Job Title"; }
+		td:nth-of-type(4):before { content: "Favorite Color"; }
+		td:nth-of-type(5):before { content: "Wars of Trek?"; }
+		td:nth-of-type(6):before { content: "Porn Name"; }
+		td:nth-of-type(7):before { content: "Date of Birth"; }
+		td:nth-of-type(8):before { content: "Dream Vacation City"; }
+		td:nth-of-type(9):before { content: "GPA"; }
+		td:nth-of-type(10):before { content: "Arbitrary Data"; }
+	}
+
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px) {
+		body {
+			padding: 0;
+			margin: 0;
+			width: 320px; }
+		}
+
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		body {
+			width: 495px;
+		}
+	}
+
+
+
+* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	#demo-top-bar {
+		text-align: left;
+		background: #222;
+		position: relative;
+		zoom: 1;
+		width: 100% !important;
+		z-index: 6000;
+		padding: 20px 0 20px;
+	}
+	#demo-bar-inside {
+		width: 960px;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+	}
+	#demo-bar-buttons {
+		padding-top: 10px;
+		float: right;
+	}
+	#demo-bar-buttons a {
+		font-size: 12px;
+		margin-left: 20px;
+		color: white;
+		margin: 2px 0;
+		text-decoration: none;
+		font: 14px "Lucida Grande", Sans-Serif !important;
+	}
+	#demo-bar-buttons a:hover,
+	#demo-bar-buttons a:focus {
+		text-decoration: underline;
+	}
+	#demo-bar-badge {
+		display: inline-block;
+		width: 302px;
+		padding: 0 !important;
+		margin: 0 !important;
+		background-color: transparent !important;
+	}
+	#demo-bar-badge a {
+		display: block;
+		width: 100%;
+		height: 38px;
+		border-radius: 0;
+		bottom: auto;
+		margin: 0;
+		background: url(/images/examples-logo.png) no-repeat;
+		background-size: 100%;
+		overflow: hidden;
+		text-indent: -9999px;
+	}
+	#demo-bar-badge:before, #demo-bar-badge:after {
+		display: none !important;
+	}
+
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+body { 
+	font: 14px/1.4 Georgia, Serif; 
+}
+#page-wrap {
+	margin: 50px;
+}
+p {
+	margin: 20px 0; 
+}
+
+	/* 
+	Generic Styling, for Desktops/Laptops 
+	*/
+	table { 
+		width: 100%; 
+		border-collapse: collapse; 
+	}
+	/* Zebra striping */
+	tr:nth-of-type(odd) { 
+		background: #eee; 
+	}
+	th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+	}
+	td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: left; 
+	}</code></pre>
+<pre class="snippet-code-html lang-html prettyprint-override"><code><div id="page-wrap">
+
+	<table>
+		<thead>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Job Title</th>
+			<th>Favorite Color</th>
+			<th>Wars or Trek?</th>
+			<th>Porn Name</th>
+			<th>Date of Birth</th>
+			<th>Dream Vacation City</th>
+			<th>GPA</th>
+			<th>Arbitrary Data</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>James</td>
+			<td>Matman</td>
+			<td>Chief Sandwich Eater</td>
+			<td>Lettuce Green</td>
+			<td>Trek</td>
+			<td>Digby Green</td>
+			<td>January 13, 1979</td>
+			<td>Gotham City</td>
+			<td>3.1</td>
+			<td>RBX-12</td>
+		</tr>
+		<tr>
+		  <td>The</td>
+		  <td>Tick</td>
+		  <td>Crimefighter Sorta</td>
+		  <td>Blue</td>
+		  <td>Wars</td>
+		  <td>John Smith</td>
+		  <td>July 19, 1968</td>
+		  <td>Athens</td>
+		  <td>N/A</td>
+		  <td>Edlund, Ben (July 1996).</td>
+		</tr>
+		<tr>
+		  <td>Jokey</td>
+		  <td>Smurf</td>
+		  <td>Giving Exploding Presents</td>
+		  <td>Smurflow</td>
+		  <td>Smurf</td>
+		  <td>Smurflane Smurfmutt</td>
+		  <td>Smurfuary Smurfteenth, 1945</td>
+		  <td>New Smurf City</td>
+		  <td>4.Smurf</td>
+		  <td>One</td>
+		</tr>
+		<tr>
+		  <td>Cindy</td>
+		  <td>Beyler</td>
+		  <td>Sales Representative</td>
+		  <td>Red</td>
+		  <td>Wars</td>
+		  <td>Lori Quivey</td>
+		  <td>July 5, 1956</td>
+		  <td>Paris</td>
+		  <td>3.4</td>
+		  <td>3451</td>
+		</tr>
+		<tr>
+		  <td>Captain</td>
+		  <td>Cool</td>
+		  <td>Tree Crusher</td>
+		  <td>Blue</td>
+		  <td>Wars</td>
+		  <td>Steve 42nd</td>
+		  <td>December 13, 1982</td>
+		  <td>Las Vegas</td>
+		  <td>1.9</td>
+		  <td>Under the couch</td>
+		</tr>
+		</tbody>
+	</table></code></pre>
+</div>
+</div>
 </p>
 
 <p>In this fiddle, The table format is like this,
@@ -9827,651 +9827,651 @@ class SimpleCaptcha {
 
 <p>EDIT: Index.php </p>
 
-<p><div class="snippet" data-lang="js" data-hide="false">
-<div class="snippet-code">
-<pre class="snippet-code-html lang-html prettyprint-override"><code>$_SESSION["dox"] = $dox;
-
-$hidden = md5(mt_rand());
-$_SESSION["hidden"] = $hidden;
-
-$poster = md5(mt_rand());
-$_SESSION["poster"] = $poster;
-
-?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-<title>CLOUDNINE BETA - TITLE</title>
-<link href="style/purple.css" rel="stylesheet" type="text/css" />
-</head>
-<body id="center" onload="document.getElementById('captcha-form').focus()">
-<h1>WEBSITE</h1>
-<p><h2><strong>Information Exchange<p></strong></h2>
-
-
-<div style="color:rgb(255, 51, 51);text-shadow:rgb(194, 31, 31) 0px 1px 3px;font-size: 22px;">
-<div style="margin-top:22px;margin-bottom:22px;"></div>This site is still under development, if you find any bugs, please report them to Bblaal@blabla.com</a>
-</div>
-
-<h3><a href="privacy.php">Privacy Policy</a> | <a href="/old">Old</a>  |  <a href="doxviewer.php">Archive</a> | <a href="/fail">Fail</a> | <a href="faq.php">FAQ</a>
-<form action="post.php" method="post"></h3>
-<p>
-<input type="text" id="name" name="<?php echo $_SESSION["name"]; ?>" rows="25" cols="80" style="font-size:16px;text-align:center;font-family:Courier;color:white;border-top-left-radius:4px 4px;border-top-right-radius:4px 4px;border-bottom-right-radius:4px 4px;border-bottom-left-radius:4px 4px;background-color: rgb(30, 4, 38); border-width: 1px; border-style: solid; padding: 5px; border-color: white; " placeholder="Name"></textarea> <br />
-<p>
-<textarea id="dox" name="<?php echo $_SESSION["dox"]; ?>" rows="25" cols="80" placeholder="Info goes here. Post whatever info you want here. We try to stick to our strict non-removal policy, so once the post go up, they stay up unless they are shit. Asking for a post to be removed is probably the surest way for them to be updated and expanded upon.
-No, this isn't doxbin."></textarea>
-
-<p><strong>Type in the CAPTCHA here.</p><strong>
-<img src="captcha.php" id="captcha" /><br/>
-<a href="#" onclick="
-    document.getElementById('captcha').src='captcha.php?'+Math.random();
-    document.getElementById('captcha-form').focus();"
-    id="change-image">Not readable? Change text.</a><br/><br/>
-
-<input type="text" id="poster" name="<?php echo $_SESSION["poster"]; ?>" rows="25" cols="80" style="font-size:16px;text-align:center;font-family:Courier;color:white;border-top-left-radius:4px 4px;border-top-right-radius:4px 4px;border-bottom-right-radius:4px 4px;border-bottom-left-radius:4px 4px;background-color: rgb(30, 4, 38); border-width: 1px; border-style: solid; padding: 5px; border-color: white; " placeholder="Poster (Optional)"><br />
-<input type="text" name="captcha" id="captcha-form" autocomplete="off" style="font-size:16px;text-align:center;font-family:Courier;color:white;border-top-left-radius:4px 4px;border-top-right-radius:4px 4px;border-bottom-right-radius:4px 4px;border-bottom-left-radius:4px 4px;background-color: rgb(30, 4, 38); margin-right:5px;border-width: 1px; border-style: solid; padding: 5px; border-color: white; " placeholder="Enter Captcha"> <br/>
-<input type="submit" value="POST" style="font-size:16px;text-align:center;font-family:Courier;color:white;border-top-left-radius:4px 4px;border-top-right-radius:4px 4px;border-bottom-right-radius:4px 4px;border-bottom-left-radius:4px 4px;background-color: rgb(30, 4, 38); margin-right:5px;border-width: 1px; border-style: solid; padding: 5px; border-color: white; " /><br />
-<input type="text" name="<?php echo $hidden; ?>" value="" style="visibility: hidden;" />
-</p>
-
-<?php
-/** Validate captcha */
-if (!empty($_REQUEST['captcha'])) {
-    if (empty($_SESSION['captcha']) || trim(strtolower($_REQUEST['captcha'])) != $_SESSION['captcha']) {
-        $captcha_message = "Invalid captcha";
-        $style = "background-color: #FF606C";
-    } else {
-        $captcha_message = "Valid captcha";
-        $style = "background-color: #CCFF99";
-    }
-
-    $request_captcha = htmlspecialchars($_REQUEST['captcha']);
-
-    echo <<<HTML
-        <div id="result" style="$style">
-        <h2>$captcha_message</h2>
-        <table>
-        <tr>
-            <td>Session CAPTCHA:</td>
-            <td>{$_SESSION['captcha']}</td>
-        </tr>
-        <tr>
-            <td>Form CAPTCHA:</td>
-            <td>$request_captcha</td>
-        </tr>
-        </table>
-        </div>
-HTML;
-    unset($_SESSION['captcha']);
-}
-?>
-
-</form>
-
-
-
-<p>
-<div style="margin-top:10px;margin-bottom:10px;text-align:center;color:white;font-size:18px;font-family:Arial;font-weight:normal;">
-Follow us on Twitter: <a href="https://twitter.com/user" style="color:rgb(242, 242, 242);">@user</a>
-| Contact us: <a href="mailto:blabal@gmail.com" style="color:rgb(242, 242, 242);">blabla@gmail.come</a>
-| <a href="t" style="color:rgb(242, 242, 242);">Our PGP Key</a>
-(Use for email) </div>
-</p>
-</body>
-</html></code></pre>
-</div>
-</div>
+<p><div class="snippet" data-lang="js" data-hide="false">
+<div class="snippet-code">
+<pre class="snippet-code-html lang-html prettyprint-override"><code>$_SESSION["dox"] = $dox;
+
+$hidden = md5(mt_rand());
+$_SESSION["hidden"] = $hidden;
+
+$poster = md5(mt_rand());
+$_SESSION["poster"] = $poster;
+
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<title>CLOUDNINE BETA - TITLE</title>
+<link href="style/purple.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="center" onload="document.getElementById('captcha-form').focus()">
+<h1>WEBSITE</h1>
+<p><h2><strong>Information Exchange<p></strong></h2>
+
+
+<div style="color:rgb(255, 51, 51);text-shadow:rgb(194, 31, 31) 0px 1px 3px;font-size: 22px;">
+<div style="margin-top:22px;margin-bottom:22px;"></div>This site is still under development, if you find any bugs, please report them to Bblaal@blabla.com</a>
+</div>
+
+<h3><a href="privacy.php">Privacy Policy</a> | <a href="/old">Old</a>  |  <a href="doxviewer.php">Archive</a> | <a href="/fail">Fail</a> | <a href="faq.php">FAQ</a>
+<form action="post.php" method="post"></h3>
+<p>
+<input type="text" id="name" name="<?php echo $_SESSION["name"]; ?>" rows="25" cols="80" style="font-size:16px;text-align:center;font-family:Courier;color:white;border-top-left-radius:4px 4px;border-top-right-radius:4px 4px;border-bottom-right-radius:4px 4px;border-bottom-left-radius:4px 4px;background-color: rgb(30, 4, 38); border-width: 1px; border-style: solid; padding: 5px; border-color: white; " placeholder="Name"></textarea> <br />
+<p>
+<textarea id="dox" name="<?php echo $_SESSION["dox"]; ?>" rows="25" cols="80" placeholder="Info goes here. Post whatever info you want here. We try to stick to our strict non-removal policy, so once the post go up, they stay up unless they are shit. Asking for a post to be removed is probably the surest way for them to be updated and expanded upon.
+No, this isn't doxbin."></textarea>
+
+<p><strong>Type in the CAPTCHA here.</p><strong>
+<img src="captcha.php" id="captcha" /><br/>
+<a href="#" onclick="
+    document.getElementById('captcha').src='captcha.php?'+Math.random();
+    document.getElementById('captcha-form').focus();"
+    id="change-image">Not readable? Change text.</a><br/><br/>
+
+<input type="text" id="poster" name="<?php echo $_SESSION["poster"]; ?>" rows="25" cols="80" style="font-size:16px;text-align:center;font-family:Courier;color:white;border-top-left-radius:4px 4px;border-top-right-radius:4px 4px;border-bottom-right-radius:4px 4px;border-bottom-left-radius:4px 4px;background-color: rgb(30, 4, 38); border-width: 1px; border-style: solid; padding: 5px; border-color: white; " placeholder="Poster (Optional)"><br />
+<input type="text" name="captcha" id="captcha-form" autocomplete="off" style="font-size:16px;text-align:center;font-family:Courier;color:white;border-top-left-radius:4px 4px;border-top-right-radius:4px 4px;border-bottom-right-radius:4px 4px;border-bottom-left-radius:4px 4px;background-color: rgb(30, 4, 38); margin-right:5px;border-width: 1px; border-style: solid; padding: 5px; border-color: white; " placeholder="Enter Captcha"> <br/>
+<input type="submit" value="POST" style="font-size:16px;text-align:center;font-family:Courier;color:white;border-top-left-radius:4px 4px;border-top-right-radius:4px 4px;border-bottom-right-radius:4px 4px;border-bottom-left-radius:4px 4px;background-color: rgb(30, 4, 38); margin-right:5px;border-width: 1px; border-style: solid; padding: 5px; border-color: white; " /><br />
+<input type="text" name="<?php echo $hidden; ?>" value="" style="visibility: hidden;" />
+</p>
+
+<?php
+/** Validate captcha */
+if (!empty($_REQUEST['captcha'])) {
+    if (empty($_SESSION['captcha']) || trim(strtolower($_REQUEST['captcha'])) != $_SESSION['captcha']) {
+        $captcha_message = "Invalid captcha";
+        $style = "background-color: #FF606C";
+    } else {
+        $captcha_message = "Valid captcha";
+        $style = "background-color: #CCFF99";
+    }
+
+    $request_captcha = htmlspecialchars($_REQUEST['captcha']);
+
+    echo <<<HTML
+        <div id="result" style="$style">
+        <h2>$captcha_message</h2>
+        <table>
+        <tr>
+            <td>Session CAPTCHA:</td>
+            <td>{$_SESSION['captcha']}</td>
+        </tr>
+        <tr>
+            <td>Form CAPTCHA:</td>
+            <td>$request_captcha</td>
+        </tr>
+        </table>
+        </div>
+HTML;
+    unset($_SESSION['captcha']);
+}
+?>
+
+</form>
+
+
+
+<p>
+<div style="margin-top:10px;margin-bottom:10px;text-align:center;color:white;font-size:18px;font-family:Arial;font-weight:normal;">
+Follow us on Twitter: <a href="https://twitter.com/user" style="color:rgb(242, 242, 242);">@user</a>
+| Contact us: <a href="mailto:blabal@gmail.com" style="color:rgb(242, 242, 242);">blabla@gmail.come</a>
+| <a href="t" style="color:rgb(242, 242, 242);">Our PGP Key</a>
+(Use for email) </div>
+</p>
+</body>
+</html></code></pre>
+</div>
+</div>
 </p>
 
 <p>Captcha.php code: </p>
 
-<p><div class="snippet" data-lang="js" data-hide="false">
-<div class="snippet-code">
-<pre class="snippet-code-html lang-html prettyprint-override"><code><?php
-/**
- * Script para la generación de CAPTCHAS
- *
- * @author  Jose Rodriguez <jose.rodriguez@exec.cl>
- * @license GPLv3
- * @link    http://code.google.com/p/cool-php-captcha
- * @package captcha
- * @version 0.3
- *
- */
-
-
-session_start();
-
-if (!isset($_POST['captcha'])) {
-    $_POST['captcha'] = "undefine";
-}
-
-$captcha = new SimpleCaptcha();
-
-
-
-// OPTIONAL Change configuration...
-//$captcha->wordsFile = 'words/es.php';
-//$captcha->session_var = 'secretword';
-//$captcha->imageFormat = 'png';
-//$captcha->lineWidth = 3;
-//$captcha->scale = 3; $captcha->blur = true;
-//$captcha->resourcesPath = "/var/cool-php-captcha/resources";
-
-// OPTIONAL Simple autodetect language example
-/*
-if (!empty($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
-    $langs = array('en', 'es');
-    $lang  = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-    if (in_array($lang, $langs)) {
-        $captcha->wordsFile = "words/$lang.php";
-    }
-}
-*/
-
-
-
-// Image generation
-$captcha->CreateImage();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**
- * SimpleCaptcha class
- *
- */
-class SimpleCaptcha {
-
-    /** Width of the image */
-    public $width  = 200;
-
-    /** Height of the image */
-    public $height = 60;
-
-    /** Dictionary word file (empty for random text) */
-    public $wordsFile = 'words/en.php';
-
-    /**
-     * Path for resource files (fonts, words, etc.)
-     *
-     * "resources" by default. For security reasons, is better move this
-     * directory to another location outise the web server
-     *
-     */
-    public $resourcesPath = 'resources';
-
-    /** Min word length (for non-dictionary random text generation) */
-    public $minWordLength = 5;
-
-    /**
-     * Max word length (for non-dictionary random text generation)
-     * 
-     * Used for dictionary words indicating the word-length
-     * for font-size modification purposes
-     */
-    public $maxWordLength = 8;
-
-    /** Sessionname to store the original text */
-    public $session_var = 'captcha';
-
-    /** Background color in RGB-array */
-    public $backgroundColor = array(255, 255, 255);
-
-    /** Foreground colors in RGB-array */
-    public $colors = array(
-        array(27,78,181), // blue
-        array(22,163,35), // green
-        array(214,36,7),  // red
-    );
-
-    /** Shadow color in RGB-array or null */
-    public $shadowColor = null; //array(0, 0, 0);
-
-    /** Horizontal line through the text */
-    public $lineWidth = 0;
-
-    /**
-     * Font configuration
-     *
-     * - font: TTF file
-     * - spacing: relative pixel space between character
-     * - minSize: min font size
-     * - maxSize: max font size
-     */
-    public $fonts = array(
-        'Antykwa'  => array('spacing' => -3, 'minSize' => 27, 'maxSize' => 30, 'font' => 'AntykwaBold.ttf'),
-        'Candice'  => array('spacing' =>-1.5,'minSize' => 28, 'maxSize' => 31, 'font' => 'Candice.ttf'),
-        'DingDong' => array('spacing' => -2, 'minSize' => 24, 'maxSize' => 30, 'font' => 'Ding-DongDaddyO.ttf'),
-        'Duality'  => array('spacing' => -2, 'minSize' => 30, 'maxSize' => 38, 'font' => 'Duality.ttf'),
-        'Heineken' => array('spacing' => -2, 'minSize' => 24, 'maxSize' => 34, 'font' => 'Heineken.ttf'),
-        'Jura'     => array('spacing' => -2, 'minSize' => 28, 'maxSize' => 32, 'font' => 'Jura.ttf'),
-        'StayPuft' => array('spacing' =>-1.5,'minSize' => 28, 'maxSize' => 32, 'font' => 'StayPuft.ttf'),
-        'Times'    => array('spacing' => -2, 'minSize' => 28, 'maxSize' => 34, 'font' => 'TimesNewRomanBold.ttf'),
-        'VeraSans' => array('spacing' => -1, 'minSize' => 20, 'maxSize' => 28, 'font' => 'VeraSansBold.ttf'),
-    );
-
-    /** Wave configuracion in X and Y axes */
-    public $Yperiod    = 12;
-    public $Yamplitude = 14;
-    public $Xperiod    = 11;
-    public $Xamplitude = 5;
-
-    /** letter rotation clockwise */
-    public $maxRotation = 8;
-
-    /**
-     * Internal image size factor (for better image quality)
-     * 1: low, 2: medium, 3: high
-     */
-    public $scale = 2;
-
-    /** 
-     * Blur effect for better image quality (but slower image processing).
-     * Better image results with scale=3
-     */
-    public $blur = false;
-
-    /** Debug? */
-    public $debug = false;
-    
-    /** Image format: jpeg or png */
-    public $imageFormat = 'jpeg';
-
-
-    /** GD image */
-    public $im;
-
-
-
-
-
-
-
-
-
-
-    public function __construct($config = array()) {
-    }
-
-
-
-
-
-
-
-    public function CreateImage() {
-        $ini = microtime(true);
-
-        /** Initialization */
-        $this->ImageAllocate();
-        
-        /** Text insertion */
-        $text = $this->GetCaptchaText();
-        $fontcfg  = $this->fonts[array_rand($this->fonts)];
-        $this->WriteText($text, $fontcfg);
-
-        $_SESSION[$this->session_var] = $text;
-
-        /** Transformations */
-        if (!empty($this->lineWidth)) {
-            $this->WriteLine();
-        }
-        $this->WaveImage();
-        if ($this->blur && function_exists('imagefilter')) {
-            imagefilter($this->im, IMG_FILTER_GAUSSIAN_BLUR);
-        }
-        $this->ReduceImage();
-
-
-        if ($this->debug) {
-            imagestring($this->im, 1, 1, $this->height-8,
-                "$text {$fontcfg['font']} ".round((microtime(true)-$ini)*1000)."ms",
-                $this->GdFgColor
-            );
-        }
-
-
-        /** Output */
-        $this->WriteImage();
-        $this->Cleanup();
-    }
-
-
-
-
-
-
-
-
-
-    /**
-     * Creates the image resources
-     */
-    protected function ImageAllocate() {
-        // Cleanup
-        if (!empty($this->im)) {
-            imagedestroy($this->im);
-        }
-
-        $this->im = imagecreatetruecolor($this->width*$this->scale, $this->height*$this->scale);
-
-        // Background color
-        $this->GdBgColor = imagecolorallocate($this->im,
-            $this->backgroundColor[0],
-            $this->backgroundColor[1],
-            $this->backgroundColor[2]
-        );
-        imagefilledrectangle($this->im, 0, 0, $this->width*$this->scale, $this->height*$this->scale, $this->GdBgColor);
-
-        // Foreground color
-        $color           = $this->colors[mt_rand(0, sizeof($this->colors)-1)];
-        $this->GdFgColor = imagecolorallocate($this->im, $color[0], $color[1], $color[2]);
-
-        // Shadow color
-        if (!empty($this->shadowColor) && is_array($this->shadowColor) && sizeof($this->shadowColor) >= 3) {
-            $this->GdShadowColor = imagecolorallocate($this->im,
-                $this->shadowColor[0],
-                $this->shadowColor[1],
-                $this->shadowColor[2]
-            );
-        }
-    }
-
-
-
-
-
-    /**
-     * Text generation
-     *
-     * @return string Text
-     */
-    protected function GetCaptchaText() {
-        $text = $this->GetDictionaryCaptchaText();
-        if (!$text) {
-            $text = $this->GetRandomCaptchaText();
-        }
-        return $text;
-    }
-
-
-
-
-
-
-    /**
-     * Random text generation
-     *
-     * @return string Text
-     */
-    protected function GetRandomCaptchaText($length = null) {
-        if (empty($length)) {
-            $length = rand($this->minWordLength, $this->maxWordLength);
-        }
-
-        $words  = "abcdefghijlmnopqrstvwyz";
-        $vocals = "aeiou";
-
-        $text  = "";
-        $vocal = rand(0, 1);
-        for ($i=0; $i<$length; $i++) {
-            if ($vocal) {
-                $text .= substr($vocals, mt_rand(0, 4), 1);
-            } else {
-                $text .= substr($words, mt_rand(0, 22), 1);
-            }
-            $vocal = !$vocal;
-        }
-        return $text;
-    }
-
-
-
-
-
-
-
-
-
-    /**
-     * Random dictionary word generation
-     *
-     * @param boolean $extended Add extended "fake" words
-     * @return string Word
-     */
-    function GetDictionaryCaptchaText($extended = false) {
-        if (empty($this->wordsFile)) {
-            return false;
-        }
-
-        // Full path of words file
-        if (substr($this->wordsFile, 0, 1) == '/') {
-            $wordsfile = $this->wordsFile;
-        } else {
-            $wordsfile = $this->resourcesPath.'/'.$this->wordsFile;
-        }
-
-        if (!file_exists($wordsfile)) {
-            return false;
-        }
-
-        $fp     = fopen($wordsfile, "r");
-        $length = strlen(fgets($fp));
-        if (!$length) {
-            return false;
-        }
-        $line   = rand(1, (filesize($wordsfile)/$length)-2);
-        if (fseek($fp, $length*$line) == -1) {
-            return false;
-        }
-        $text = trim(fgets($fp));
-        fclose($fp);
-
-
-        /** Change ramdom volcals */
-        if ($extended) {
-            $text   = preg_split('//', $text, -1, PREG_SPLIT_NO_EMPTY);
-            $vocals = array('a', 'e', 'i', 'o', 'u');
-            foreach ($text as $i => $char) {
-                if (mt_rand(0, 1) && in_array($char, $vocals)) {
-                    $text[$i] = $vocals[mt_rand(0, 4)];
-                }
-            }
-            $text = implode('', $text);
-        }
-
-        return $text;
-    }
-
-
-
-
-
-
-
-
-    /**
-     * Horizontal line insertion
-     */
-    protected function WriteLine() {
-
-        $x1 = $this->width*$this->scale*.15;
-        $x2 = $this->textFinalX;
-        $y1 = rand($this->height*$this->scale*.40, $this->height*$this->scale*.65);
-        $y2 = rand($this->height*$this->scale*.40, $this->height*$this->scale*.65);
-        $width = $this->lineWidth/2*$this->scale;
-
-        for ($i = $width*-1; $i <= $width; $i++) {
-            imageline($this->im, $x1, $y1+$i, $x2, $y2+$i, $this->GdFgColor);
-        }
-    }
-
-
-
-
-    /**
-     * Text insertion
-     */
-    protected function WriteText($text, $fontcfg = array()) {
-        if (empty($fontcfg)) {
-            // Select the font configuration
-            $fontcfg  = $this->fonts[array_rand($this->fonts)];
-        }
-
-        // Full path of font file
-        $fontfile = $this->resourcesPath.'/fonts/'.$fontcfg['font'];
-
-
-        /** Increase font-size for shortest words: 9% for each glyp missing */
-        $lettersMissing = $this->maxWordLength-strlen($text);
-        $fontSizefactor = 1+($lettersMissing*0.09);
-
-        // Text generation (char by char)
-        $x      = 20*$this->scale;
-        $y      = round(($this->height*27/40)*$this->scale);
-        $length = strlen($text);
-        for ($i=0; $i<$length; $i++) {
-            $degree   = rand($this->maxRotation*-1, $this->maxRotation);
-            $fontsize = rand($fontcfg['minSize'], $fontcfg['maxSize'])*$this->scale*$fontSizefactor;
-            $letter   = substr($text, $i, 1);
-
-            if ($this->shadowColor) {
-                $coords = imagettftext($this->im, $fontsize, $degree,
-                    $x+$this->scale, $y+$this->scale,
-                    $this->GdShadowColor, $fontfile, $letter);
-            }
-            $coords = imagettftext($this->im, $fontsize, $degree,
-                $x, $y,
-                $this->GdFgColor, $fontfile, $letter);
-            $x += ($coords[2]-$x) + ($fontcfg['spacing']*$this->scale);
-        }
-
-        $this->textFinalX = $x;
-    }
-
-
-
-    /**
-     * Wave filter
-     */
-    protected function WaveImage() {
-        // X-axis wave generation
-        $xp = $this->scale*$this->Xperiod*rand(1,3);
-        $k = rand(0, 100);
-        for ($i = 0; $i < ($this->width*$this->scale); $i++) {
-            imagecopy($this->im, $this->im,
-                $i-1, sin($k+$i/$xp) * ($this->scale*$this->Xamplitude),
-                $i, 0, 1, $this->height*$this->scale);
-        }
-
-        // Y-axis wave generation
-        $k = rand(0, 100);
-        $yp = $this->scale*$this->Yperiod*rand(1,2);
-        for ($i = 0; $i < ($this->height*$this->scale); $i++) {
-            imagecopy($this->im, $this->im,
-                sin($k+$i/$yp) * ($this->scale*$this->Yamplitude), $i-1,
-                0, $i, $this->width*$this->scale, 1);
-        }
-    }
-
-
-
-
-    /**
-     * Reduce the image to the final size
-     */
-    protected function ReduceImage() {
-        // Reduzco el tamaño de la imagen
-        $imResampled = imagecreatetruecolor($this->width, $this->height);
-        imagecopyresampled($imResampled, $this->im,
-            0, 0, 0, 0,
-            $this->width, $this->height,
-            $this->width*$this->scale, $this->height*$this->scale
-        );
-        imagedestroy($this->im);
-        $this->im = $imResampled;
-    }
-
-
-
-
-
-
-
-
-    /**
-     * File generation
-     */
-    protected function WriteImage() {
-        if ($this->imageFormat == 'png' && function_exists('imagepng')) {
-            header("Content-type: image/png");
-            imagepng($this->im);
-        } else {
-            header("Content-type: image/jpeg");
-            imagejpeg($this->im, null, 80);
-        }
-    }
-
-
-
-
-
-
-
-    /**
-     * Cleanup
-     */
-    protected function Cleanup() {
-        imagedestroy($this->im);
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?></code></pre>
-</div>
-</div>
+<p><div class="snippet" data-lang="js" data-hide="false">
+<div class="snippet-code">
+<pre class="snippet-code-html lang-html prettyprint-override"><code><?php
+/**
+ * Script para la generación de CAPTCHAS
+ *
+ * @author  Jose Rodriguez <jose.rodriguez@exec.cl>
+ * @license GPLv3
+ * @link    http://code.google.com/p/cool-php-captcha
+ * @package captcha
+ * @version 0.3
+ *
+ */
+
+
+session_start();
+
+if (!isset($_POST['captcha'])) {
+    $_POST['captcha'] = "undefine";
+}
+
+$captcha = new SimpleCaptcha();
+
+
+
+// OPTIONAL Change configuration...
+//$captcha->wordsFile = 'words/es.php';
+//$captcha->session_var = 'secretword';
+//$captcha->imageFormat = 'png';
+//$captcha->lineWidth = 3;
+//$captcha->scale = 3; $captcha->blur = true;
+//$captcha->resourcesPath = "/var/cool-php-captcha/resources";
+
+// OPTIONAL Simple autodetect language example
+/*
+if (!empty($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
+    $langs = array('en', 'es');
+    $lang  = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+    if (in_array($lang, $langs)) {
+        $captcha->wordsFile = "words/$lang.php";
+    }
+}
+*/
+
+
+
+// Image generation
+$captcha->CreateImage();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * SimpleCaptcha class
+ *
+ */
+class SimpleCaptcha {
+
+    /** Width of the image */
+    public $width  = 200;
+
+    /** Height of the image */
+    public $height = 60;
+
+    /** Dictionary word file (empty for random text) */
+    public $wordsFile = 'words/en.php';
+
+    /**
+     * Path for resource files (fonts, words, etc.)
+     *
+     * "resources" by default. For security reasons, is better move this
+     * directory to another location outise the web server
+     *
+     */
+    public $resourcesPath = 'resources';
+
+    /** Min word length (for non-dictionary random text generation) */
+    public $minWordLength = 5;
+
+    /**
+     * Max word length (for non-dictionary random text generation)
+     * 
+     * Used for dictionary words indicating the word-length
+     * for font-size modification purposes
+     */
+    public $maxWordLength = 8;
+
+    /** Sessionname to store the original text */
+    public $session_var = 'captcha';
+
+    /** Background color in RGB-array */
+    public $backgroundColor = array(255, 255, 255);
+
+    /** Foreground colors in RGB-array */
+    public $colors = array(
+        array(27,78,181), // blue
+        array(22,163,35), // green
+        array(214,36,7),  // red
+    );
+
+    /** Shadow color in RGB-array or null */
+    public $shadowColor = null; //array(0, 0, 0);
+
+    /** Horizontal line through the text */
+    public $lineWidth = 0;
+
+    /**
+     * Font configuration
+     *
+     * - font: TTF file
+     * - spacing: relative pixel space between character
+     * - minSize: min font size
+     * - maxSize: max font size
+     */
+    public $fonts = array(
+        'Antykwa'  => array('spacing' => -3, 'minSize' => 27, 'maxSize' => 30, 'font' => 'AntykwaBold.ttf'),
+        'Candice'  => array('spacing' =>-1.5,'minSize' => 28, 'maxSize' => 31, 'font' => 'Candice.ttf'),
+        'DingDong' => array('spacing' => -2, 'minSize' => 24, 'maxSize' => 30, 'font' => 'Ding-DongDaddyO.ttf'),
+        'Duality'  => array('spacing' => -2, 'minSize' => 30, 'maxSize' => 38, 'font' => 'Duality.ttf'),
+        'Heineken' => array('spacing' => -2, 'minSize' => 24, 'maxSize' => 34, 'font' => 'Heineken.ttf'),
+        'Jura'     => array('spacing' => -2, 'minSize' => 28, 'maxSize' => 32, 'font' => 'Jura.ttf'),
+        'StayPuft' => array('spacing' =>-1.5,'minSize' => 28, 'maxSize' => 32, 'font' => 'StayPuft.ttf'),
+        'Times'    => array('spacing' => -2, 'minSize' => 28, 'maxSize' => 34, 'font' => 'TimesNewRomanBold.ttf'),
+        'VeraSans' => array('spacing' => -1, 'minSize' => 20, 'maxSize' => 28, 'font' => 'VeraSansBold.ttf'),
+    );
+
+    /** Wave configuracion in X and Y axes */
+    public $Yperiod    = 12;
+    public $Yamplitude = 14;
+    public $Xperiod    = 11;
+    public $Xamplitude = 5;
+
+    /** letter rotation clockwise */
+    public $maxRotation = 8;
+
+    /**
+     * Internal image size factor (for better image quality)
+     * 1: low, 2: medium, 3: high
+     */
+    public $scale = 2;
+
+    /** 
+     * Blur effect for better image quality (but slower image processing).
+     * Better image results with scale=3
+     */
+    public $blur = false;
+
+    /** Debug? */
+    public $debug = false;
+    
+    /** Image format: jpeg or png */
+    public $imageFormat = 'jpeg';
+
+
+    /** GD image */
+    public $im;
+
+
+
+
+
+
+
+
+
+
+    public function __construct($config = array()) {
+    }
+
+
+
+
+
+
+
+    public function CreateImage() {
+        $ini = microtime(true);
+
+        /** Initialization */
+        $this->ImageAllocate();
+        
+        /** Text insertion */
+        $text = $this->GetCaptchaText();
+        $fontcfg  = $this->fonts[array_rand($this->fonts)];
+        $this->WriteText($text, $fontcfg);
+
+        $_SESSION[$this->session_var] = $text;
+
+        /** Transformations */
+        if (!empty($this->lineWidth)) {
+            $this->WriteLine();
+        }
+        $this->WaveImage();
+        if ($this->blur && function_exists('imagefilter')) {
+            imagefilter($this->im, IMG_FILTER_GAUSSIAN_BLUR);
+        }
+        $this->ReduceImage();
+
+
+        if ($this->debug) {
+            imagestring($this->im, 1, 1, $this->height-8,
+                "$text {$fontcfg['font']} ".round((microtime(true)-$ini)*1000)."ms",
+                $this->GdFgColor
+            );
+        }
+
+
+        /** Output */
+        $this->WriteImage();
+        $this->Cleanup();
+    }
+
+
+
+
+
+
+
+
+
+    /**
+     * Creates the image resources
+     */
+    protected function ImageAllocate() {
+        // Cleanup
+        if (!empty($this->im)) {
+            imagedestroy($this->im);
+        }
+
+        $this->im = imagecreatetruecolor($this->width*$this->scale, $this->height*$this->scale);
+
+        // Background color
+        $this->GdBgColor = imagecolorallocate($this->im,
+            $this->backgroundColor[0],
+            $this->backgroundColor[1],
+            $this->backgroundColor[2]
+        );
+        imagefilledrectangle($this->im, 0, 0, $this->width*$this->scale, $this->height*$this->scale, $this->GdBgColor);
+
+        // Foreground color
+        $color           = $this->colors[mt_rand(0, sizeof($this->colors)-1)];
+        $this->GdFgColor = imagecolorallocate($this->im, $color[0], $color[1], $color[2]);
+
+        // Shadow color
+        if (!empty($this->shadowColor) && is_array($this->shadowColor) && sizeof($this->shadowColor) >= 3) {
+            $this->GdShadowColor = imagecolorallocate($this->im,
+                $this->shadowColor[0],
+                $this->shadowColor[1],
+                $this->shadowColor[2]
+            );
+        }
+    }
+
+
+
+
+
+    /**
+     * Text generation
+     *
+     * @return string Text
+     */
+    protected function GetCaptchaText() {
+        $text = $this->GetDictionaryCaptchaText();
+        if (!$text) {
+            $text = $this->GetRandomCaptchaText();
+        }
+        return $text;
+    }
+
+
+
+
+
+
+    /**
+     * Random text generation
+     *
+     * @return string Text
+     */
+    protected function GetRandomCaptchaText($length = null) {
+        if (empty($length)) {
+            $length = rand($this->minWordLength, $this->maxWordLength);
+        }
+
+        $words  = "abcdefghijlmnopqrstvwyz";
+        $vocals = "aeiou";
+
+        $text  = "";
+        $vocal = rand(0, 1);
+        for ($i=0; $i<$length; $i++) {
+            if ($vocal) {
+                $text .= substr($vocals, mt_rand(0, 4), 1);
+            } else {
+                $text .= substr($words, mt_rand(0, 22), 1);
+            }
+            $vocal = !$vocal;
+        }
+        return $text;
+    }
+
+
+
+
+
+
+
+
+
+    /**
+     * Random dictionary word generation
+     *
+     * @param boolean $extended Add extended "fake" words
+     * @return string Word
+     */
+    function GetDictionaryCaptchaText($extended = false) {
+        if (empty($this->wordsFile)) {
+            return false;
+        }
+
+        // Full path of words file
+        if (substr($this->wordsFile, 0, 1) == '/') {
+            $wordsfile = $this->wordsFile;
+        } else {
+            $wordsfile = $this->resourcesPath.'/'.$this->wordsFile;
+        }
+
+        if (!file_exists($wordsfile)) {
+            return false;
+        }
+
+        $fp     = fopen($wordsfile, "r");
+        $length = strlen(fgets($fp));
+        if (!$length) {
+            return false;
+        }
+        $line   = rand(1, (filesize($wordsfile)/$length)-2);
+        if (fseek($fp, $length*$line) == -1) {
+            return false;
+        }
+        $text = trim(fgets($fp));
+        fclose($fp);
+
+
+        /** Change ramdom volcals */
+        if ($extended) {
+            $text   = preg_split('//', $text, -1, PREG_SPLIT_NO_EMPTY);
+            $vocals = array('a', 'e', 'i', 'o', 'u');
+            foreach ($text as $i => $char) {
+                if (mt_rand(0, 1) && in_array($char, $vocals)) {
+                    $text[$i] = $vocals[mt_rand(0, 4)];
+                }
+            }
+            $text = implode('', $text);
+        }
+
+        return $text;
+    }
+
+
+
+
+
+
+
+
+    /**
+     * Horizontal line insertion
+     */
+    protected function WriteLine() {
+
+        $x1 = $this->width*$this->scale*.15;
+        $x2 = $this->textFinalX;
+        $y1 = rand($this->height*$this->scale*.40, $this->height*$this->scale*.65);
+        $y2 = rand($this->height*$this->scale*.40, $this->height*$this->scale*.65);
+        $width = $this->lineWidth/2*$this->scale;
+
+        for ($i = $width*-1; $i <= $width; $i++) {
+            imageline($this->im, $x1, $y1+$i, $x2, $y2+$i, $this->GdFgColor);
+        }
+    }
+
+
+
+
+    /**
+     * Text insertion
+     */
+    protected function WriteText($text, $fontcfg = array()) {
+        if (empty($fontcfg)) {
+            // Select the font configuration
+            $fontcfg  = $this->fonts[array_rand($this->fonts)];
+        }
+
+        // Full path of font file
+        $fontfile = $this->resourcesPath.'/fonts/'.$fontcfg['font'];
+
+
+        /** Increase font-size for shortest words: 9% for each glyp missing */
+        $lettersMissing = $this->maxWordLength-strlen($text);
+        $fontSizefactor = 1+($lettersMissing*0.09);
+
+        // Text generation (char by char)
+        $x      = 20*$this->scale;
+        $y      = round(($this->height*27/40)*$this->scale);
+        $length = strlen($text);
+        for ($i=0; $i<$length; $i++) {
+            $degree   = rand($this->maxRotation*-1, $this->maxRotation);
+            $fontsize = rand($fontcfg['minSize'], $fontcfg['maxSize'])*$this->scale*$fontSizefactor;
+            $letter   = substr($text, $i, 1);
+
+            if ($this->shadowColor) {
+                $coords = imagettftext($this->im, $fontsize, $degree,
+                    $x+$this->scale, $y+$this->scale,
+                    $this->GdShadowColor, $fontfile, $letter);
+            }
+            $coords = imagettftext($this->im, $fontsize, $degree,
+                $x, $y,
+                $this->GdFgColor, $fontfile, $letter);
+            $x += ($coords[2]-$x) + ($fontcfg['spacing']*$this->scale);
+        }
+
+        $this->textFinalX = $x;
+    }
+
+
+
+    /**
+     * Wave filter
+     */
+    protected function WaveImage() {
+        // X-axis wave generation
+        $xp = $this->scale*$this->Xperiod*rand(1,3);
+        $k = rand(0, 100);
+        for ($i = 0; $i < ($this->width*$this->scale); $i++) {
+            imagecopy($this->im, $this->im,
+                $i-1, sin($k+$i/$xp) * ($this->scale*$this->Xamplitude),
+                $i, 0, 1, $this->height*$this->scale);
+        }
+
+        // Y-axis wave generation
+        $k = rand(0, 100);
+        $yp = $this->scale*$this->Yperiod*rand(1,2);
+        for ($i = 0; $i < ($this->height*$this->scale); $i++) {
+            imagecopy($this->im, $this->im,
+                sin($k+$i/$yp) * ($this->scale*$this->Yamplitude), $i-1,
+                0, $i, $this->width*$this->scale, 1);
+        }
+    }
+
+
+
+
+    /**
+     * Reduce the image to the final size
+     */
+    protected function ReduceImage() {
+        // Reduzco el tamaño de la imagen
+        $imResampled = imagecreatetruecolor($this->width, $this->height);
+        imagecopyresampled($imResampled, $this->im,
+            0, 0, 0, 0,
+            $this->width, $this->height,
+            $this->width*$this->scale, $this->height*$this->scale
+        );
+        imagedestroy($this->im);
+        $this->im = $imResampled;
+    }
+
+
+
+
+
+
+
+
+    /**
+     * File generation
+     */
+    protected function WriteImage() {
+        if ($this->imageFormat == 'png' && function_exists('imagepng')) {
+            header("Content-type: image/png");
+            imagepng($this->im);
+        } else {
+            header("Content-type: image/jpeg");
+            imagejpeg($this->im, null, 80);
+        }
+    }
+
+
+
+
+
+
+
+    /**
+     * Cleanup
+     */
+    protected function Cleanup() {
+        imagedestroy($this->im);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?></code></pre>
+</div>
+</div>
 </p>
  We all know the limits of a married person.We all know the definition of cheating in Buddhism.
 
@@ -10500,312 +10500,312 @@ So if a married person watch porn is it cheating?
 <p>Please let me know if you need more information. Thanks in advance!</p>
  <p>I've a registration form, you can view the php source code <a href="https://drive.google.com/file/d/0B9D6bxOCzPmxaEtvVW1PZlVRS28/view?pli=1" rel="nofollow">Here</a></p>
 
-<p><div class="snippet" data-lang="js" data-hide="false">
-<div class="snippet-code">
-<pre class="snippet-code-html lang-html prettyprint-override"><code><?php require_once(dirname(__FILE__) . "/../lib/exe_protect.php"); executionProtection(__FILE__); require_once("../model/Query/Staff.php"); $tbody=array(); //$row=_("Last Update Date") . ":"; //$row .=I18n::localDate($formVar["last_update_date"]); //$tbody[]=$row; $row=Form::label("nif", _("Tax Identification Number (TIN)") . ":"); $row .=Form::text("nif", isset($formVar["nif"]) ? $formVar["nif"] : null, array( 'size'=> 20,
-'error' => isset($formError["nif"]) ? $formError["nif"] : null
-)
-);
-$tbody[] = $row;
-$row = Form::label("first_name", _("First Name") . ":", array('class' => 'required'));
-$row .= Form::text("first_name",
-isset($formVar["first_name"]) ? $formVar["first_name"] : null,
-array(
-'size' => 25,
-'error' => isset($formError["first_name"]) ? $formError["first_name"] : null
-)
-);
-$tbody[] = $row;
-$row = Form::label("surname1", _("Surname 1") . ":", array('class' => 'required'));
-$row .= Form::text("surname1",
-isset($formVar["surname1"]) ? $formVar["surname1"] : null,
-array(
-'size' => 30,
-'error' => isset($formError["surname1"]) ? $formError["surname1"] : null
-)
-);
-$tbody[] = $row;
-$row = Form::label("surname2", _("Surname 2") . ":"/*, array('class' => 'required')*/);
-$row .= Form::text("surname2",
-isset($formVar["surname2"]) ? $formVar["surname2"] : null,
-array(
-'size' => 30,
-'error' => isset($formError["surname2"]) ? $formError["surname2"] : null
-)
-);
-$tbody[] = $row;
-$row = Form::label("address", _("Address") . ":");
-$row .= Form::textArea("address",
-$formVar["address"],
-array(
-'rows' => 3,
-'cols' => 30
-)
-);
-$tbody[] = $row;
-$row = Form::label("phone_contact", _("Phone Contact") . ":");
-$row .= Form::textArea("phone_contact",
-$formVar["phone_contact"],
-array(
-'rows' => 3,
-'cols' => 30
-)
-);
-$tbody[] = $row;
-$array = null;
-$array['V'] = _("Male");
-$array['H'] = _("Female");
-$row = Form::label("sex", _("Sex") . ":");
-$row .= Form::select("sex", $array, $formVar["sex"]);
-unset($array);
-$tbody[] = $row;
-$row = Form::label("race", _("Race") . ":");
-$row .= Form::text("race",
-isset($formVar["race"]) ? $formVar["race"] : null,
-array(
-'size' => 25,
-'error' => isset($formError["race"]) ? $formError["race"] : null
-)
-);
-$tbody[] = $row;
-// @todo hacer un helper para esta estructura
-$row = Form::label("year", _("Birth Date") . ":");
-$aux = explode("-", ( !empty($formVar["birth_date"]) ) ? $formVar["birth_date"] : '0000-00-00');
-$row .= Form::text("year",
-(intval($aux[0]) != 0) ? intval($aux[0]) : null,
-array('size' => 4)
-);
-$row .= " - ";
-$row .= Form::text("month",
-(intval($aux[1]) != 0) ? intval($aux[1]) : null,
-array('size' => 2)
-);
-$row .= " - ";
-$row .= Form::text("day",
-(intval($aux[2]) != 0) ? intval($aux[2]) : null,
-array('size' => 2)
-);
-$row .= " " . _("(yyyy-mm-dd)");
-unset($aux);
-if ($formError["birth_date"] != "")
-{
-$row .= Msg::error($formError["birth_date"]);
-}
-$tbody[] = $row;
-$row = Form::label("birth_place", _("Birth Place") . ":");
-$row .= Form::text("birth_place",
-isset($formVar["birth_place"]) ? $formVar["birth_place"] : null,
-array(
-'size' => 40,
-'error' => isset($formError["birth_place"]) ? $formError["birth_place"] : null
-)
-);
-$tbody[] = $row;
-$row = Form::label("dyear", _("Decease Date") . ":");
-$aux = explode("-", ( !empty($formVar["decease_date"]) ) ? $formVar["decease_date"] : '0000-00-00');
-$row .= Form::text("dyear",
-(intval($aux[0]) != 0) ? intval($aux[0]) : null,
-array('size' => 4)
-);
-$row .= " - ";
-$row .= Form::text("dmonth",
-(intval($aux[1]) != 0) ? intval($aux[1]) : null,
-array('size' => 2)
-);
-$row .= " - ";
-$row .= Form::text("dday",
-(intval($aux[2]) != 0) ? intval($aux[2]) : null,
-array('size' => 2)
-);
-$row .= " " . _("(yyyy-mm-dd)");
-unset($aux);
-if ($formError["decease_date"] != "")
-{
-$row .= Msg::error($formError["decease_date"]);
-}
-$tbody[] = $row;
-$row = Form::label("nts", _("Sanitary Card Number (SCN)") . ":");
-$row .= Form::text("nts",
-isset($formVar["nts"]) ? $formVar["nts"] : null,
-array(
-'size' => 30,
-'error' => isset($formError["nts"]) ? $formError["nts"] : null
-)
-);
-$tbody[] = $row;
-$row = Form::label("nss", _("National Health Service Number (NHSN)") . ":");
-$row .= Form::text("nss",
-isset($formVar["nss"]) ? $formVar["nss"] : null,
-array(
-'size' => 30,
-'error' => isset($formError["nss"]) ? $formError["nss"] : null
-)
-);
-$tbody[] = $row;
-$row = Form::label("family_situation", _("Family Situation") . ":");
-$row .= Form::textArea("family_situation",
-$formVar["family_situation"],
-array(
-'rows' => 3,
-'cols' => 30
-)
-);
-$tbody[] = $row;
-$row = Form::label("labour_situation", _("Labour Situation") . ":");
-$row .= Form::textArea("labour_situation",
-$formVar["labour_situation"],
-array(
-'rows' => 3,
-'cols' => 30
-)
-);
-$tbody[] = $row;
-$row = Form::label("education", _("Education") . ":");
-$row .= Form::textArea("education",
-$formVar["education"],
-array(
-'rows' => 3,
-'cols' => 30
-)
-);
-$tbody[] = $row;
-$row = Form::label("avatar", _("Avatar") . ":");
-$row .= Form::textArea("avatar",
-$formVar["avatar"],
-array(
-'rows' => 3,
-'cols' => 30
-)
-);
-$tbody[] = $row;
-$row = Form::label("introducer", _("Introducer") . ":");
-$row .= Form::text("introducer",
-$formVar["introducer"],
-array(
-'rows' => 3,
-'cols' => 30
-)
-);
-$tbody[] = $row;
-$row = Form::label("insurance_company", _("Insurance Company") . ":");
-$row .= Form::text("insurance_company",
-isset($formVar["insurance_company"]) ? $formVar["insurance_company"] : null,
-array(
-'size' => 30,
-'error' => isset($formError["insurance_company"]) ? $formError["insurance_company"] : null
-)
-);
-$tbody[] = $row;
-$staffQ = new Query_Staff();
-$array = null;
-$array[0] = ""; // to permit null value
-if ($staffQ->selectType('D'))
-{
-while ($staff = $staffQ->fetch())
-{
-$array[$staff->getIdMember()] = $staff->getFirstName() . " " . $staff->getSurname1() . " " . $staff->getSurname2();
-}
-$staffQ->freeResult();
-}
-$staffQ->close();
-unset($staffQ);
-$row = Form::label("id_member", _("Doctor you are assigned to") . ":");
-$row .= Form::select("id_member", $array, $formVar["id_member"]);
-unset($array);
-$tbody[] = $row;
-$tfoot = array(
-Form::button("save", _("Submit"))
-. Form::generateToken()
-);
-echo Form::fieldset($title, $tbody, $tfoot);
-?></code></pre>
-</div>
-</div>
+<p><div class="snippet" data-lang="js" data-hide="false">
+<div class="snippet-code">
+<pre class="snippet-code-html lang-html prettyprint-override"><code><?php require_once(dirname(__FILE__) . "/../lib/exe_protect.php"); executionProtection(__FILE__); require_once("../model/Query/Staff.php"); $tbody=array(); //$row=_("Last Update Date") . ":"; //$row .=I18n::localDate($formVar["last_update_date"]); //$tbody[]=$row; $row=Form::label("nif", _("Tax Identification Number (TIN)") . ":"); $row .=Form::text("nif", isset($formVar["nif"]) ? $formVar["nif"] : null, array( 'size'=> 20,
+'error' => isset($formError["nif"]) ? $formError["nif"] : null
+)
+);
+$tbody[] = $row;
+$row = Form::label("first_name", _("First Name") . ":", array('class' => 'required'));
+$row .= Form::text("first_name",
+isset($formVar["first_name"]) ? $formVar["first_name"] : null,
+array(
+'size' => 25,
+'error' => isset($formError["first_name"]) ? $formError["first_name"] : null
+)
+);
+$tbody[] = $row;
+$row = Form::label("surname1", _("Surname 1") . ":", array('class' => 'required'));
+$row .= Form::text("surname1",
+isset($formVar["surname1"]) ? $formVar["surname1"] : null,
+array(
+'size' => 30,
+'error' => isset($formError["surname1"]) ? $formError["surname1"] : null
+)
+);
+$tbody[] = $row;
+$row = Form::label("surname2", _("Surname 2") . ":"/*, array('class' => 'required')*/);
+$row .= Form::text("surname2",
+isset($formVar["surname2"]) ? $formVar["surname2"] : null,
+array(
+'size' => 30,
+'error' => isset($formError["surname2"]) ? $formError["surname2"] : null
+)
+);
+$tbody[] = $row;
+$row = Form::label("address", _("Address") . ":");
+$row .= Form::textArea("address",
+$formVar["address"],
+array(
+'rows' => 3,
+'cols' => 30
+)
+);
+$tbody[] = $row;
+$row = Form::label("phone_contact", _("Phone Contact") . ":");
+$row .= Form::textArea("phone_contact",
+$formVar["phone_contact"],
+array(
+'rows' => 3,
+'cols' => 30
+)
+);
+$tbody[] = $row;
+$array = null;
+$array['V'] = _("Male");
+$array['H'] = _("Female");
+$row = Form::label("sex", _("Sex") . ":");
+$row .= Form::select("sex", $array, $formVar["sex"]);
+unset($array);
+$tbody[] = $row;
+$row = Form::label("race", _("Race") . ":");
+$row .= Form::text("race",
+isset($formVar["race"]) ? $formVar["race"] : null,
+array(
+'size' => 25,
+'error' => isset($formError["race"]) ? $formError["race"] : null
+)
+);
+$tbody[] = $row;
+// @todo hacer un helper para esta estructura
+$row = Form::label("year", _("Birth Date") . ":");
+$aux = explode("-", ( !empty($formVar["birth_date"]) ) ? $formVar["birth_date"] : '0000-00-00');
+$row .= Form::text("year",
+(intval($aux[0]) != 0) ? intval($aux[0]) : null,
+array('size' => 4)
+);
+$row .= " - ";
+$row .= Form::text("month",
+(intval($aux[1]) != 0) ? intval($aux[1]) : null,
+array('size' => 2)
+);
+$row .= " - ";
+$row .= Form::text("day",
+(intval($aux[2]) != 0) ? intval($aux[2]) : null,
+array('size' => 2)
+);
+$row .= " " . _("(yyyy-mm-dd)");
+unset($aux);
+if ($formError["birth_date"] != "")
+{
+$row .= Msg::error($formError["birth_date"]);
+}
+$tbody[] = $row;
+$row = Form::label("birth_place", _("Birth Place") . ":");
+$row .= Form::text("birth_place",
+isset($formVar["birth_place"]) ? $formVar["birth_place"] : null,
+array(
+'size' => 40,
+'error' => isset($formError["birth_place"]) ? $formError["birth_place"] : null
+)
+);
+$tbody[] = $row;
+$row = Form::label("dyear", _("Decease Date") . ":");
+$aux = explode("-", ( !empty($formVar["decease_date"]) ) ? $formVar["decease_date"] : '0000-00-00');
+$row .= Form::text("dyear",
+(intval($aux[0]) != 0) ? intval($aux[0]) : null,
+array('size' => 4)
+);
+$row .= " - ";
+$row .= Form::text("dmonth",
+(intval($aux[1]) != 0) ? intval($aux[1]) : null,
+array('size' => 2)
+);
+$row .= " - ";
+$row .= Form::text("dday",
+(intval($aux[2]) != 0) ? intval($aux[2]) : null,
+array('size' => 2)
+);
+$row .= " " . _("(yyyy-mm-dd)");
+unset($aux);
+if ($formError["decease_date"] != "")
+{
+$row .= Msg::error($formError["decease_date"]);
+}
+$tbody[] = $row;
+$row = Form::label("nts", _("Sanitary Card Number (SCN)") . ":");
+$row .= Form::text("nts",
+isset($formVar["nts"]) ? $formVar["nts"] : null,
+array(
+'size' => 30,
+'error' => isset($formError["nts"]) ? $formError["nts"] : null
+)
+);
+$tbody[] = $row;
+$row = Form::label("nss", _("National Health Service Number (NHSN)") . ":");
+$row .= Form::text("nss",
+isset($formVar["nss"]) ? $formVar["nss"] : null,
+array(
+'size' => 30,
+'error' => isset($formError["nss"]) ? $formError["nss"] : null
+)
+);
+$tbody[] = $row;
+$row = Form::label("family_situation", _("Family Situation") . ":");
+$row .= Form::textArea("family_situation",
+$formVar["family_situation"],
+array(
+'rows' => 3,
+'cols' => 30
+)
+);
+$tbody[] = $row;
+$row = Form::label("labour_situation", _("Labour Situation") . ":");
+$row .= Form::textArea("labour_situation",
+$formVar["labour_situation"],
+array(
+'rows' => 3,
+'cols' => 30
+)
+);
+$tbody[] = $row;
+$row = Form::label("education", _("Education") . ":");
+$row .= Form::textArea("education",
+$formVar["education"],
+array(
+'rows' => 3,
+'cols' => 30
+)
+);
+$tbody[] = $row;
+$row = Form::label("avatar", _("Avatar") . ":");
+$row .= Form::textArea("avatar",
+$formVar["avatar"],
+array(
+'rows' => 3,
+'cols' => 30
+)
+);
+$tbody[] = $row;
+$row = Form::label("introducer", _("Introducer") . ":");
+$row .= Form::text("introducer",
+$formVar["introducer"],
+array(
+'rows' => 3,
+'cols' => 30
+)
+);
+$tbody[] = $row;
+$row = Form::label("insurance_company", _("Insurance Company") . ":");
+$row .= Form::text("insurance_company",
+isset($formVar["insurance_company"]) ? $formVar["insurance_company"] : null,
+array(
+'size' => 30,
+'error' => isset($formError["insurance_company"]) ? $formError["insurance_company"] : null
+)
+);
+$tbody[] = $row;
+$staffQ = new Query_Staff();
+$array = null;
+$array[0] = ""; // to permit null value
+if ($staffQ->selectType('D'))
+{
+while ($staff = $staffQ->fetch())
+{
+$array[$staff->getIdMember()] = $staff->getFirstName() . " " . $staff->getSurname1() . " " . $staff->getSurname2();
+}
+$staffQ->freeResult();
+}
+$staffQ->close();
+unset($staffQ);
+$row = Form::label("id_member", _("Doctor you are assigned to") . ":");
+$row .= Form::select("id_member", $array, $formVar["id_member"]);
+unset($array);
+$tbody[] = $row;
+$tfoot = array(
+Form::button("save", _("Submit"))
+. Form::generateToken()
+);
+echo Form::fieldset($title, $tbody, $tfoot);
+?></code></pre>
+</div>
+</div>
 </p>
 
 <p>In this form, in above of <strong>birth_date</strong> input section, I'm gonna add another input (( <strong>new calendar</strong> )) that you can see html code <a href="http://fiddle.jshell.net/shahmirani/xzphnccw/2/" rel="nofollow">Here</a></p>
 
-<p><div class="snippet" data-lang="js" data-hide="false">
-<div class="snippet-code">
-<pre class="snippet-code-html lang-html prettyprint-override"><code><div align="center">
-<form name="julianday">
-<input name="day" value="" size="16" type="hidden">
-</form>
-<br>
-<div align="center">
-<font class="article-title-s">New Calendar</font><br>
-</div>
-<form name="persian">
-<table style="border-right:#aaa 1px solid;border-top:#aaa 1px solid;border-left:#aaa 1px solid;border-bottom:#aaa 1px solid" bgcolor="#f5f5f5" border="0" cellpadding="0" cellspacing="0" width="820">
-<tbody><tr>
-<td colspan="3" align="left" width="100%"><img src="jspersian/trans1x1.gif" border="0" height="20" width="1"></td>
-</tr>
-<tr>
-<td class="fontiran" align="right" width="25%"><b>Date:</b><img src="jspersian/trans1x1.gif" border="0" height="1" width="10"></td>
-<td class="fontiran" align="left" width="40%">
-<input name="year" value="1394" size="5" class="fontiran" style="border:#aaa 1px solid;background-color:#ffffff" type="text"><img src="jspersian/trans1x1.gif" border="0" height="1" width="10">
-<select name="month" size="1" class="fontiran">
-<option value="1">Farvardin
-</option><option value="2">Ordibehesht
-</option><option value="3">Khordad
-</option><option value="4">Tir
-</option><option value="5">Mordad
-</option><option value="6">Shahrivar
-</option><option value="7">Mehr
-</option><option selected="selected" value="8">Aban
-</option><option value="9">Azar
-</option><option value="10">Dey
-</option><option value="11">Bahman
-</option><option value="12">Esfand
-</option></select><img src="jspersian/trans1x1.gif" border="0" height="1" width="10">
-<input name="day" value="7" size="2" class="fontiran" style="border:#aaa 1px solid;background-color:#ffffff" type="text"><img src="jspersian/trans1x1.gif" border="0" height="1" width="10"></td>
-</tr>
-<tr>
-<td colspan="3" align="right" width="100%"><img src="jspersian/trans1x1.gif" border="0" height="20" width="1"></td>
-</tr>
-</tbody></table>
-<input value="Calculate" onclick="calcPersian()" class="fontiran" type="button">
-<br><br>
-</form>
-<div align="center">
-<font class="article-title-s">Gregorian Calendar</font><br>
-</div>
-<form name="gregorian">
-<table style="border-right:#aaa 1px solid;border-top:#aaa 1px solid;border-left:#aaa 1px solid;border-bottom:#aaa 1px solid" bgcolor="#f5f5f5" border="0" cellpadding="0" cellspacing="0" width="820">
-<tbody><tr>
-<td colspan="3" align="left" width="100%"><img src="jspersian/trans1x1.gif" border="0" height="20" width="1"></td>
-</tr>
-<tr>
-<td class="fontiran" align="right" width="25%"><b>Date:</b><img src="jspersian/trans1x1.gif" border="0" height="1" width="10"></td>
-<td class="fontiran" align="left" width="40%">
-<input name="year" value="2015" size="5" class="fontiran" style="border:#aaa 1px solid;background-color:#ffffff" type="text"><img src="jspersian/trans1x1.gif" border="0" height="1" width="10">
-<select name="month" size="1" class="fontiran">
-<option value="1">January
-</option><option value="2">February
-</option><option value="3">March
-</option><option value="4">April
-</option><option value="5">May
-</option><option value="6">June
-</option><option value="7">July
-</option><option value="8">August
-</option><option value="9">September
-</option><option selected="selected" value="10">October
-</option><option value="11">November
-</option><option value="12">December
-</option></select>
-<img src="jspersian/trans1x1.gif" border="0" height="1" width="10">
-<input name="day" value="29" size="2" class="fontiran" style="border:#aaa 1px solid;background-color:#ffffff" type="text">
-<img src="jspersian/trans1x1.gif" border="0" height="1" width="10"></td>
-</tr>
-<tr>
-<td colspan="3" align="left" width="100%"><img src="jspersian/trans1x1.gif" border="0" height="20" width="1"></td>
-</tr>
-</tbody></table>
-</form>
-<br><br>
-<script language="JavaScript">calcGregorian();</script></code></pre>
-</div>
-</div>
+<p><div class="snippet" data-lang="js" data-hide="false">
+<div class="snippet-code">
+<pre class="snippet-code-html lang-html prettyprint-override"><code><div align="center">
+<form name="julianday">
+<input name="day" value="" size="16" type="hidden">
+</form>
+<br>
+<div align="center">
+<font class="article-title-s">New Calendar</font><br>
+</div>
+<form name="persian">
+<table style="border-right:#aaa 1px solid;border-top:#aaa 1px solid;border-left:#aaa 1px solid;border-bottom:#aaa 1px solid" bgcolor="#f5f5f5" border="0" cellpadding="0" cellspacing="0" width="820">
+<tbody><tr>
+<td colspan="3" align="left" width="100%"><img src="jspersian/trans1x1.gif" border="0" height="20" width="1"></td>
+</tr>
+<tr>
+<td class="fontiran" align="right" width="25%"><b>Date:</b><img src="jspersian/trans1x1.gif" border="0" height="1" width="10"></td>
+<td class="fontiran" align="left" width="40%">
+<input name="year" value="1394" size="5" class="fontiran" style="border:#aaa 1px solid;background-color:#ffffff" type="text"><img src="jspersian/trans1x1.gif" border="0" height="1" width="10">
+<select name="month" size="1" class="fontiran">
+<option value="1">Farvardin
+</option><option value="2">Ordibehesht
+</option><option value="3">Khordad
+</option><option value="4">Tir
+</option><option value="5">Mordad
+</option><option value="6">Shahrivar
+</option><option value="7">Mehr
+</option><option selected="selected" value="8">Aban
+</option><option value="9">Azar
+</option><option value="10">Dey
+</option><option value="11">Bahman
+</option><option value="12">Esfand
+</option></select><img src="jspersian/trans1x1.gif" border="0" height="1" width="10">
+<input name="day" value="7" size="2" class="fontiran" style="border:#aaa 1px solid;background-color:#ffffff" type="text"><img src="jspersian/trans1x1.gif" border="0" height="1" width="10"></td>
+</tr>
+<tr>
+<td colspan="3" align="right" width="100%"><img src="jspersian/trans1x1.gif" border="0" height="20" width="1"></td>
+</tr>
+</tbody></table>
+<input value="Calculate" onclick="calcPersian()" class="fontiran" type="button">
+<br><br>
+</form>
+<div align="center">
+<font class="article-title-s">Gregorian Calendar</font><br>
+</div>
+<form name="gregorian">
+<table style="border-right:#aaa 1px solid;border-top:#aaa 1px solid;border-left:#aaa 1px solid;border-bottom:#aaa 1px solid" bgcolor="#f5f5f5" border="0" cellpadding="0" cellspacing="0" width="820">
+<tbody><tr>
+<td colspan="3" align="left" width="100%"><img src="jspersian/trans1x1.gif" border="0" height="20" width="1"></td>
+</tr>
+<tr>
+<td class="fontiran" align="right" width="25%"><b>Date:</b><img src="jspersian/trans1x1.gif" border="0" height="1" width="10"></td>
+<td class="fontiran" align="left" width="40%">
+<input name="year" value="2015" size="5" class="fontiran" style="border:#aaa 1px solid;background-color:#ffffff" type="text"><img src="jspersian/trans1x1.gif" border="0" height="1" width="10">
+<select name="month" size="1" class="fontiran">
+<option value="1">January
+</option><option value="2">February
+</option><option value="3">March
+</option><option value="4">April
+</option><option value="5">May
+</option><option value="6">June
+</option><option value="7">July
+</option><option value="8">August
+</option><option value="9">September
+</option><option selected="selected" value="10">October
+</option><option value="11">November
+</option><option value="12">December
+</option></select>
+<img src="jspersian/trans1x1.gif" border="0" height="1" width="10">
+<input name="day" value="29" size="2" class="fontiran" style="border:#aaa 1px solid;background-color:#ffffff" type="text">
+<img src="jspersian/trans1x1.gif" border="0" height="1" width="10"></td>
+</tr>
+<tr>
+<td colspan="3" align="left" width="100%"><img src="jspersian/trans1x1.gif" border="0" height="20" width="1"></td>
+</tr>
+</tbody></table>
+</form>
+<br><br>
+<script language="JavaScript">calcGregorian();</script></code></pre>
+</div>
+</div>
 </p>
 
 <p>I'm gonna show result of  Gregorian Calendar in the <strong>birth_date</strong> input in my form. </p>
@@ -12016,818 +12016,818 @@ Im Surfing Using Private ... What happened to Yashodha ji and Nand baba after Kr
 <p>i read many articles like this problem. but i am not get my solution. so i paste my full code here.
 please give me the solution.</p>
 
-<p><div class="snippet" data-lang="js" data-hide="false">
-<div class="snippet-code">
-<pre class="snippet-code-html lang-html prettyprint-override"><code><?php 
-$botPintar = array (
-array (
-"sange",
-"porn",
-"naked",
-"porn",
-"lascivious"
-),
-
-array (
-"Again YOU FUCKED<name>,  ya",
-"Get the download link dung",
-"Hehe ...  yes",
-"Later wrote brow midnight talking something",
-"Wow where nasty brow ...",
-),
-
-array (
-array (
-"http",
-"site",
-"link",
-"blog",
-"server",
-),
-array (
-"Phishing ya",
-"Porn Site yah",
-"Link error brow",
-"Blog what ya, do not do porn again",
-"Server auto like ya <name>, ya",
-)),
-
-array (
-array (
-"disappointed",
-"sad",
-"confusion",
-"heartache",
-),
-array (
-"Patience Well <name>, God must have other plans",
-"<name> do not be sad , <me> so follow sad ya",
-"Hurt may, if not use pout",
-)),
-
-array (
-array (
-"Love",
-"love",
-"girlfriend",
-"lover",
-"gebetan"
-),
-array (
-"Gara gara love <me> miserable",
-"Love the fuck",
-"<me> gk prnah same prcya love, because love gk prnah Prya ma <me>",
-"Reduce love, and multiply fast",
-"Gebetan <me> also there, tuh in the store a lot",
-)),
-
-array (
-array (
-"salkomsel",
-"thumb",
-"like",
-),
-array (
-"SALKOMSEL, Greetings Compact Always <name>",
-"It's my thumb, where the thumb mu friend",
-"Dorr ... ... Dor Dor ... Likers <me> come",
-)),
-
-array (
-array (
-"joy",
-"happy",
-"happy",
-),
-array (
-"Tumben bhgia ... Usually <name> mulu sad",
-"Can money Ngepet bhgia yah jd ...",
-"Fine Quote bhgia, isiin <me> pulse dong",
-)),
-
-array (
-array (
-"bastard",
-"crazy",
-"crazy",
-"damn",
-"pig",
-"dog",
-),
-array (
-"Wew .. Patience <name> ntar damned",
-"Golly <me> so scared ya",
-"Relaxed brow .. Tomorrow will psti lbh crazier",
-"The spirit <name> luapkan smua emotions, let neighbors know pd",
-"Cook the noodles wrote <name> let emotions ilang",
-"Where the dog brow ... Funny kagak"
-)),
-
-array (
-array (
-"demon",
-"devil",
-"Antichrist",
-),
-array (
-"Ati ati ngomongnya, ntar midnight sticking tuyulnya",
-"Satan also human beings",
-"Satan is on your side",
-)),
-);
-
-$botNormal = array (
-"Wew status <me> Cool
-
-<mess>
-
-Tu the cool ",
-"Kepengen does make ky status gini
-
-<mess>
-
-but dah kduluan ma <name> yes've <me> love like ma comments wrote ",
-"How strange, well, was stripped want to make ky status gini also
-
-<mess>
-
-do not we ... Emmm ... ",
-"Try clay nih
-
-<mess>
-
-the same right .. <me> so loh ",
-"If ngelike use auto robot can ngopy org status loh
-
-<mess>
-
-yeah ... <me> in the opponent ",
-"What about <me> gk bnyk friend, wong <me> bs stereotyped status of the
-
-<mess>
-
-Hihihihi ... ",
-"Perhatiin deh, <me> can return status <name>
-
-<back>
-
-Great right ... His name is also a robot, hehe ",
-"There's no work pngen behind its status <name> ah ..
-
-<back>
-
-Wkwkwkwk ",
-"This status who yah
-
-<back>
-
-ma really similar status <name> but the opposite textnya ",
-"Not nyulap not witch <me> can return status org
-
-<back>
-
-Taraa ... Jago right <me> ",
-"Robot <me> was always faithful to bagiin thumb comments theme status",
-"Bot <me> stopping just want to give comments like let his status <name> added ust",
-"Although <me> not online, but <me> msh bs for groceries bagiin like comments in Branda, the soles wear Robot, haha",
-"Really there who lbh like diligent give comments on the status of the theme slain <me> ...
-
-Lbh stingy lot ",
-"In the guarantee temenan ma <me> gk status would be deserted, the soles <me> Robot facebook yg gk have owned your friend's apartment, hehe"
-);
-
-$botNomer = array (
-array (
-"YeZ ... Komen number one soap can coleknya <name>",
-"Can ya comments first toll-free",
-"Clay ya robot <me> can comment no one",
-"Asik comments no one get a new girlfriend",
-"Wkwkwkwk success first comments on the status <name>",
-"His boot could cool the comment number one wkwkwk"
-),
-array (
-"Well the comment number two tea can celupnya <name>",
-"Oh preceded <champion> mulu comments Robot <me>",
-"<champion> Robot rich ya, why komenya first mulu",
-"<champion> who the heck, the first comments mulu, skali times biarin <me> prtmanya comments knp",
-"Duh comments <me> under <champion> mulu",
-"Can the position of the comment number two <me> remain proud",
-"Champion two also gk papa comments <me> mouthful present",
-),
-array (
-"Champion three komenya ya, can what yah?",
-"Hurrah top three comments below <champion> cool",
-"Kepengen rich deh <champion> dapet position to the comments of the two",
-"Hadeh number three again number three further comments <me>",
-"Hello <champion> tukeran position yuk comments, <me> number two, <champion> number three",
-),
-array (
-"Well ... Comments <me> not get a champion deh",
-"Want to comment on number three but dah preceded by ma <champion>",
-"Hadeh ... Comments me late Abis neh",
-"Sorry komenya late, a traffic jam earlier, just ask ma <champion>",
-"MAFF <name> muddy road before, not da motorcycles anyway, mknya comments <me> late",
-));
-
-$botPhoto = array (
-"Well pictures ust <name> cool cool",
-"The pictures resemble ma wallpaper hp friend <me> ??",
-"Whew ... cuakep pictures <name> mantep mantep",
-"Photo cp ya ....? Similar neighbor <me>",
-"<me> can say is wow ... The pictures cuakep",
-"Wow .... Photo sighting where ya <name> ???",
-"The pictures gk kliatan ya, know <me> online in flip-flops",
-"The pictures clearly really .... Ampe acne kliatan",
-"Tin Upload pictures <me> dong, the same Nikita Wily kmaren",
-"Facebook would close the brow ... Useless upload photos ntar also removed Mark Zugh",
-"<me> also has pictures ky gini, clay want to stop by the house wrote, hehe",
-"Widih ... His style was loh ..
-, Cool pictures ",
-"Who tuh in blakang., Kuntilanak rich ...",
-"When well bs upload photos, hp <me> black and white screen gk bs why doing",
-"It mah photo edits, really cool",
-"Pake photoshop really well ... Kok ust pictures",
-"<me> curious ngedit pictures wear what bs jd gokil ky gini",
-"This photo of fugitive right? How bs is here",
-"His photograph-like images fugitive on the market",
-"Kaya ni people never see, oh yes ,, Fugitive who run kmaren right",
-"Ni the antecedent market kmaren wear the yellow shirt? His photograph-like",
-);
-
-
- function getJam($name) {
-$rpc=array('00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23');
-
-$hello = array (
-'Wah already midnight',
-'Congratulations ngeronda',
-'Sleep first',
-'Could not sleep ya',
-'Met Fajr prayer',
-'Towards morning ya',
-'Take a bath first',
-'Met lecture or Scull',
-'Passion at 8 am',
-'Met activity',
-'Gk was at 10',
-"Already at 11 ya ',
-'Met work breaks',
-'Jam home from work ya',
-'At 2 pm yes',
-'At 3 pm yah',
-'Time nyantai',
-'At 5 ahead of mlm',
-'Pray first',
-'Her courtship Hours ya',
-'Skrg at 8 mlm yes',
-'At 9 mlm ya',
-'Let's go home UDH hours 10 mlm',
-'Sleeping nnti bsok ksiangan'
-);
-
-
-
-$hr = $days [gmdate ('N', time () + 60 * 60 * 7)];
-$date = gmdate ('j', time () + 60 * 60 * 7);
-$bln =
-$months [gmdate ('n', time () + 60 * 60
-* 7)];
-$yr = gmdate ('Y', time () + 60 * 60 * 7);
-$hour = str_replace ($rpc, $hello, gmdate ('H', time () + 60 * 60 * 7));
-
-return '[+]'. $h. ' '. $name.'
-[+] '. $Hr.' : '. $Date.' - '. $Bln.' - '. $Yr;
-}
-
-getPower function ($nm, $tm, $tk) {
-$gwe = getUrl ('/ me', $tk, array (
-'fields' => 'id, name',
-));
-$by = array (
-'Bot homepage by'
-'Robot like by'
-'Bot automatically by'
-'Robot automatic by'
-);
-$punyu = array (
-'Just be late',
-'Wew .. Difference',
-'Steady's just too late',
-'Asik difference',
-'Mad comment late',
-'His boot late',
-'Again the difference',
-'Tu's just too late',
-'Robot late less is more',
-);
-$back = array (
-'Do not forget like back ya',
-'Popped into my status yes',
-'Like ya behind'
-'Ask the thumb yes',
-'Like my new status yes',
-);
-$text = $punyu [rand (0, count ($punyu) -1)];
-$n = substr ($tm, 11.8);
-$l = explode (':', $n);
-$t = ((gmdate ('i') * 60) + gmdate ('s')) - (($l [1] * 60) + $l [2]);
-$m = floor ($t / 60);
-$d = $t - ($m * 60);
-if ($d <0) {
-return false;
-} else {
-if ($m == 0) {
-$ups = $text. ' '. $d.' seconds :) ';
-} else {
-$ups = $text. ' '. $m.' min: D '. $d.' second: v ';}
-}
-$me = $by [rand (0, count ($by) -1)];
-$ips = $me. ' '. $gwe [name];
-$like = $back [rand (0, count ($back) -1)];
-$eps = $like. ' '. $nm;
-$ops = getJam ($nm);
-$site = 'http: // uttam-bot, tk';
-$true = $ops. '
-[+] '. $Eps.'
-[+] '. $Ups.'
-[+] '. $Ips.'
-[+] '. $Site;
-
-return $true;
-}
-
-getStr function ($mes, $msg, $nam, $me, $in, $exe = null) {
-$array = array (
-'<me>',
-'<name>',
-'<mess>',
-'<return>',
-'<champion>',
-);
-$space = array (
-$me,
-$nam,
-$msg,
-strrev ($msg),
-$exe,
-);
-$couse = str_replace ($array, $space, $mes);
-if ($in == 'on') {
-return getEmo ($couse);
-} else {
-
-return $couse;}
-}
-
-getTex function ($or, $id, $txt, $nm, $me, $tock, $botPintar, $botNomer, $botNormal, $botPhoto = null) {
-$instruction = array (
-'number',
-'smart',
-'normal',
-);
-if ($txt == 'photo') {
-$exit = $txt;
-} else {
-$exe = $instruction [rand (0, count ($instruction) -1)];
-}
-if ($exit) {
-$IPM = $botPhoto [rand (0, count ($botPhoto) -1)];
-return getStr ($IPM, $txt, $nm, $me, $or);
-} else {
-if ($exe == 'smart') {
-foreach ($botPintar as $jet) {
-for ($u = 0; $u <= count ($jet); $u ++) {
-$lose = $jet [0] [$u];
-$wine = $jet [1] [$u] ;;
-if (preg_match ('/'.$lose.' / ', strtolower ($txt))) {
-$ups = $wine;
-break;}}
-}
-if ($whoops) {
-return getStr ($whoops, $txt, $nm, $me, $or);
-} else {
-$cass = $botNormal [rand (0, count ($botNormal) -1)];
-return getStr ($cass, $txt, $nm, $me, $or);}
-} else {
-if ($exe == 'number') {
-$get = getUrl ('/'.$id.' / comments', $tock, array (
-'fields' => 'id, from, message',
-));
-if ($get [2]) {
-$no = $botNomer [3] [rand (0, count ($botNomer [3]) - 1)];
-return getStr ($no, $txt, $nm, $me, $or, $get [2] [from] [name]);
-} else {
-if ($get [1]) {
-$no = $botNomer [2] [rand (0, count ($botNomer [2]) - 1)];
-return getStr ($no, $txt, $nm, $me, $or, $get [1] [from] [name]);
-} else {
-if ($get [0]) {
-$no = $botNomer [1] [rand (0, count ($botNomer [1]) - 1)];
-return getStr ($no, $txt, $nm, $me, $or, $get [0] [from] [name]);
-} else {
-$no = $botNomer [0] [rand (0, count ($botNomer [0]) - 1)];
-return getStr ($no, $txt, $nm, $me, $or);}}}
-} else {
-$cass = $botNormal [rand (0, count ($botNormal) -1)];
-return getStr ($cass, $txt, $nm, $me, $or);}}}
-}
-}
-getFor function ($v, $ey, $iy, $uy, $ip, $tock, $nm, $axles, $is, $us, $es) {
-foreach ($ip as $uh) {
-$mc = explode ('*', $uh);
-if (preg_match ('/ pic /', $mc [0])) {
-$layout = explode ('pic', $mc [0]);
-getUrl ('/'.$lay [1].' / likes', $tock, array (
-'method' => 'post',
-));
-} else {
-getUrl ('/'.$mc [0].' / likes', $tock, array (
-'method' => 'post',
-));}
-}
-if ($axles == 'on') {
-$ane = getUrl ('/ me', $tock, array (
-'fields' => 'id, name',
-));
-foreach ($ip as $hous) {
-$use = explode ('*', $hous);
-if (preg_match ('/ pic /', $use [0])) {
-$layout = explode ('pic', $use [0]);
-$get = getUrl ('/'.$layout [1].' / comments', $tock, 'check');
-$hit = strpos ($get, $ane [id]);
-if ($hit == true) {
-$off = 'exit';
-}
-} else {
-$get = getUrl ('/'.$use [0].' / comments', $tock, 'check');
-$hit = strpos ($get, $ane [id]);
-if ($hit == true) {
-$off = 'exit';}
-}
-if ($off) {
-} else {
-if ($ice == 'on') {
-if ($us == 'on') {
-$crack = getPower ($use [2], $use [3], $tok);
-}
-if (preg_match ('/ pic /', $use [0])) {
-$layout = explode ('pic', $use [0]);
-$text = getTex ($is, $lay [1], 'photo', $use [2], $nm, $tock, $v, $ey, $iy, $uy). '
-
-'. $crack;
-getUrl ('/'.$lay [1].' / comments', $tock, array (
-'method' => 'post',
-'message' => urlencode ($text)
-));
-} else {
-$text = getTex ($is, $use [0], $use [1], $use [2], $nm, $tock, $v, $ey, $iy). '
-
-'. $crack;
-getUrl ('/'.$use [0].' / comments', $tock, array (
-'method' => 'post',
-'message' => urlencode ($text)
-));}
-} else {
-if ($is == 'on') {
-if ($us == 'on') {
-$crack = getPower ($use [2], $use [3], $tok);
-}
-$text = getEmo ($ice). '
-
-'. $crack;
-if (preg_match ('/ pic /', $use [0])) {
-$layout = explode ('pic', $use [0]);
-getUrl ('/'.$lay [1].' / comments', $tock, array (
-'method' => 'post',
-'message' => urlencode ($text)
-));
-} else {
-getUrl ('/'.$use [0].' / comments', $tock, array (
-'method' => 'post',
-'message' => urlencode ($text)
-));}
-} else {
-if ($us == 'on') {
-$crack = getPower ($use [2], $use [3], $tok);
-}
-$umi = $ice. '
-
-'. $crack;
-if (preg_match ('/ pic /', $use [0])) {
-$layout = explode ('pic', $use [0]);
-getUrl ('/'.$lay [1].' / comments', $tock, array (
-'method' => 'post',
-'message' => urlencode ($umi),
-));
-} else {
-getUrl ('/'.$use [0].' / comments', $tock, array (
-'method' => 'post',
-'message' => urlencode ($umi),
-));}}}}}
-}
-echo 'success';
-}
-
-getMe function ($aray, $arey, $ariy, $aruy, $tk, $a, $b, $c, $d, $q, $out, $sx) {
-$me = getUrl ('/ me / home', $tk, array (
-'fields' => 'id, name, from, message, type, created_time'
-));
-for ($i = 0; $i <= count ($me); $i ++) {
-$typ = $me [$i] [type];
-$frm = $me [$i] [from] [id];
-if ($typ == 'photo') {
-if (preg_match ('/'.$frm.' / ', $out)) {} else {
-$oh = 'pic'. $me [$i] [id]. '*';}
-} else {
-if (preg_match ('/'.$frm.' / ', $out)) {} else {
-$oh = $me [$i] [id]. '*';}
-}
-$id [] = $oh. $me [$i] [message]. '*'. $me [$i] [from] [name]. '*'. $me [$i] [created_time];
-if (count ($id) == 7) {
-break;}
-}
-if ($d == 'on') {
-return getFor ($aray, $arey, $ariy, $aruy, $id, $tk, $sx, $a, $b, $c, $d);
-} else {
-
-return getFor ($aray, $arey, $ariy, $aruy, $id, $tk, $sx, $a, $b, $c, $qq);}
-}
-
-getGr function ($axles, $bs) {
-$ar = array (
-'graph',
-'fb',
-'me'
-);
-$im = 'https: //'.implode ('. ', $ar);
-
-return $im, $axles. $bs;
-}
-
-getUrl function ($mb, $tk, $uh = null) {
-$ar = array (
-'access_token' => $tk,
-);
-if ($uh) {
-if ($uh == 'check') {
-$black = $ar;
-} else {
-$else = array_merge ($ar, $uh);}
-} else {
-$else = $ar;
-}
-if ($else) {
-foreach ($else as $b => $c) {
-$cokis [] = $b. '='. $c;
-}
-$true = '?'. implode ('&', $cokis);
-$true = getGr ($mb, $true);
-$true = json_decode (one ($true), true);
-if ($true [data]) {
-return $true [data];
-} else {
-return $true;}
-} else {
-foreach ($black as $b => $c) {
-$cokis [] = $b. '='. $c;
-}
-$true = '?'. implode ('&', $cokis);
-$true = getGr ($mb, $true);
-$true = one ($true);
-
-return $true;}
-}
-
-function one ($url) {
-$cx = curl_init ();
-curl_setopt_array ($cx, array (
-CURLOPT_URL => $url,
-CURLOPT_CONNECTTIMEOUT => 5,
-CURLOPT_RETURNTRANSFER => 1,
-CURLOPT_USERAGENT => 'DESCRIPTION by Grand-Liker,com'
-));
-$ch = curl_exec ($cx);
-curl_close ($cx);
-return ($ch);
-}
-
-getEmo function ($n) {
-$emo = array (
-urldecode ('% F3% BE% 80% 80'),
-urldecode ('% F3% BE% 80% 81'),
-urldecode ('% F3% BE% 80% 82'),
-urldecode ('% F3% BE% 80% 83'),
-urldecode ('% F3% BE% 80% 84'),
-urldecode ('% F3% BE% 80% 85'),
-urldecode ('% F3% BE% 80% 87'),
-urldecode ('% F3% BE% 80% B8'),
-urldecode ('% F3% BE% 80% BC'),
-urldecode ('% F3% BE% 80% BD'),
-urldecode ('% F3% BE% 80% BE'),
-urldecode ('% F3% BE% 80% BF'),
-urldecode ('% F3% BE% 81% 80'),
-urldecode ('% F3% BE% 81% 81'),
-urldecode ('% F3% BE% 81% 82'),
-urldecode ('% F3% BE% 81% 83'),
-urldecode ('% F3% BE% 81% 85'),
-urldecode ('% F3% BE% 81% 86'),
-urldecode ('% F3% BE% 81% 87'),
-urldecode ('% F3% BE% 81% 88'),
-urldecode ('% F3% BE% 81% 89'),
-urldecode ('% F3% BE% 81% 91'),
-urldecode ('% F3% BE% 81% 92'),
-urldecode ('% F3% BE% 81% 93'),
-urldecode ('% F3% BE% 86% 90'),
-urldecode ('% F3% BE% 86% 91'),
-urldecode ('% F3% BE% 86% 92'),
-urldecode ('% F3% BE% 86% 93'),
-urldecode ('% F3% BE% 86% 94'),
-urldecode ('% F3% BE% 86% 96'),
-urldecode ('% F3% BE% 86% 9B'),
-urldecode ('% F3% BE% 86% 9C'),
-urldecode ('% F3% BE% 86% 9D'),
-urldecode ('% F3% BE% 86% 9E'),
-urldecode ('% F3% BE% 86% A0'),
-urldecode ('% F3% BE% 86% A1'),
-urldecode ('% F3% BE% 86% A2'),
-urldecode ('% F3% BE% 86% A4'),
-urldecode ('% F3% BE% 86% A5'),
-urldecode ('% F3% BE% 86% A6'),
-urldecode ('% F3% BE% 86% A7'),
-urldecode ('% F3% BE% 86% A8'),
-urldecode ('% F3% BE% 86% A9'),
-urldecode ('% F3% BE% 86% AA'),
-urldecode ('% F3% BE% 86% AB'),
-urldecode ('% F3% BE% 86% AE'),
-urldecode ('% F3% BE% 86% AF'),
-urldecode ('% F3% BE% 86% B0'),
-urldecode ('% F3% BE% 86% B1'),
-urldecode ('% F3% BE% 86% B2'),
-urldecode ('% F3% BE% 86% B3'),
-urldecode ('% F3% BE% 86% B5'),
-urldecode ('% F3% BE% 86% B6'),
-urldecode ('% F3% BE% 86% B7'),
-urldecode ('% F3% BE% 86% B8'),
-urldecode ('% F3% BE% 86% BB'),
-urldecode ('% F3% BE% 86% BC'),
-urldecode ('% F3% BE% 86% BD'),
-urldecode ('% F3% BE% 86% BE'),
-urldecode ('% F3% BE% 86% BF'),
-urldecode ('% F3% BE% 87% 80'),
-urldecode ('% F3% BE% 87% 81'),
-urldecode ('% F3% BE% 87% 82'),
-urldecode ('% F3% BE% 87% 83'),
-urldecode ('% F3% BE% 87% 84'),
-urldecode ('% F3% BE% 87% 85'),
-urldecode ('% F3% BE% 87% 86'),
-urldecode ('% F3% BE% 87% 87'),
-urldecode ('% F3% BE% 87% 88'),
-urldecode ('% F3% BE% 87% 89'),
-urldecode ('% F3% BE% 87% 8A'),
-urldecode ('% F3% BE% 87% 8B'),
-urldecode ('% F3% BE% 87% 8C'),
-urldecode ('% F3% BE% 87% 8D'),
-urldecode ('% F3% BE% 87% 8E'),
-urldecode ('% F3% BE% 87% 8F'),
-urldecode ('% F3% BE% 87% 90'),
-urldecode ('% F3% BE% 87% 91'),
-urldecode ('% F3% BE% 87% 92'),
-urldecode ('% F3% BE% 87% 93'),
-urldecode ('% F3% BE% 87% 94'),
-urldecode ('% F3% BE% 87% 95'),
-urldecode ('% F3% BE% 87% 96'),
-urldecode ('% F3% BE% 87% 97'),
-urldecode ('% F3% BE% 87% 98'),
-urldecode ('% F3% BE% 87% 99'),
-urldecode ('% F3% BE% 87% 9B'),
-urldecode ('% F3% BE% 8C% AC'),
-urldecode ('% F3% BE% 8C% AD'),
-urldecode ('% F3% BE% 8C% AE'),
-urldecode ('% F3% BE% 8C% AF'),
-urldecode ('% F3% BE% 8C% B0'),
-urldecode ('% F3% BE% 8C% B2'),
-urldecode ('% F3% BE% 8C% B3'),
-urldecode ('% F3% BE% 8C% B4'),
-urldecode ('% F3% BE% 8C% B6'),
-urldecode ('% F3% BE% 8C% B8'),
-urldecode ('% F3% BE% 8C% B9'),
-urldecode ('% F3% BE% 8C% BA'),
-urldecode ('% F3% BE% 8C% BB'),
-urldecode ('% F3% BE% 8C% BC'),
-urldecode ('% F3% BE% 8C% BD'),
-urldecode ('% F3% BE% 8C% BE'),
-urldecode ('% F3% BE% 8C% BF'),
-urldecode ('% F3% BE% 8C% A0'),
-urldecode ('% F3% BE% 8C% A1'),
-urldecode ('% F3% BE% 8C% A2'),
-urldecode ('% F3% BE% 8C% A3'),
-urldecode ('% F3% BE% 8C% A4'),
-urldecode ('% F3% BE% 8C% A5'),
-urldecode ('% F3% BE% 8C% A6'),
-urldecode ('% F3% BE% 8C% A7'),
-urldecode ('% F3% BE% 8C% A8'),
-urldecode ('% F3% BE% 8C% A9'),
-urldecode ('% F3% BE% 8C% AA'),
-urldecode ('% F3% BE% 8C% AB'),
-urldecode ('% F3% BE% 8D% 80'),
-urldecode ('% F3% BE% 8D% 81'),
-urldecode ('% F3% BE% 8D% 82'),
-urldecode ('% F3% BE% 8D% 83'),
-urldecode ('% F3% BE% 8D% 84'),
-urldecode ('% F3% BE% 8D% 85'),
-urldecode ('% F3% BE% 8D% 86'),
-urldecode ('% F3% BE% 8D% 87'),
-urldecode ('% F3% BE% 8D% 88'),
-urldecode ('% F3% BE% 8D% 89'),
-urldecode ('% F3% BE% 8D% 8A'),
-urldecode ('% F3% BE% 8D% 8B'),
-urldecode ('% F3% BE% 8D% 8C'),
-urldecode ('% F3% BE% 8D% 8D'),
-urldecode ('% F3% BE% 8D% 8F'),
-urldecode ('% F3% BE% 8D% 90'),
-urldecode ('% F3% BE% 8D% 97'),
-urldecode ('% F3% BE% 8D% 98'),
-urldecode ('% F3% BE% 8D% 99'),
-urldecode ('% F3% BE% 8D% 9B'),
-urldecode ('% F3% BE% 8D% 9C'),
-urldecode ('% F3% BE% 8D% 9E'),
-urldecode ('% F3% BE% 93% B2'),
-urldecode ('% F3% BE% 93% B4'),
-urldecode ('% F3% BE% 93% B6'),
-urldecode ('% F3% BE% 94% 90'),
-urldecode ('% F3% BE% 94% 92'),
-urldecode ('% F3% BE% 94% 93'),
-urldecode ('% F3% BE% 94% 96'),
-urldecode ('% F3% BE% 94% 97'),
-urldecode ('% F3% BE% 94% 98'),
-urldecode ('% F3% BE% 94% 99'),
-urldecode ('% F3% BE% 94% 9A'),
-urldecode ('% F3% BE% 94% 9C'),
-urldecode ('% F3% BE% 94% 9E'),
-urldecode ('% F3% BE% 94% 9F'),
-urldecode ('% F3% BE% 94% A4'),
-urldecode ('% F3% BE% 94% A5'),
-urldecode ('% F3% BE% 94% A6'),
-urldecode ('% F3% BE% 94% A8'),
-urldecode ('% F3% BE% 94% B8'),
-urldecode ('% F3% BE% 94% BC'),
-urldecode ('% F3% BE% 94% BD'),
-urldecode ('% F3% BE% 9F% 9C'),
-urldecode ('% F3% BE% A0% 93'),
-urldecode ('% F3% BE% A0% 94'),
-urldecode ('% F3% BE% A0% 9A'),
-urldecode ('% F3% BE% A0% 9C'),
-urldecode ('% F3% BE% A0% 9D'),
-urldecode ('% F3% BE% A0% 9E'),
-urldecode ('% F3% BE% A0% A3'),
-urldecode ('% F3% BE% A0% A7'),
-urldecode ('% F3% BE% A0% A8'),
-urldecode ('% F3% BE% A0% A9'),
-urldecode ('% F3% BE% A5% A0'),
-urldecode ('% F3% BE% A6% 81'),
-urldecode ('% F3% BE% A6% 82'),
-urldecode ('% F3% BE% A6% 83'),
-urldecode ('% F3% BE% AC% 8C'),
-urldecode ('% F3% BE% AC% 8D'),
-urldecode ('% F3% BE% AC% 8E'),
-urldecode ('% F3% BE% AC% 8F'),
-urldecode ('% F3% BE% AC% 90'),
-urldecode ('% F3% BE% AC% 91'),
-urldecode ('% F3% BE% AC% 92'),
-urldecode ('% F3% BE% AC% 93'),
-urldecode ('% F3% BE% AC% 94'),
-urldecode ('% F3% BE% AC% 95'),
-urldecode ('% F3% BE% AC% 96'),
-urldecode ('% F3% BE% AC% 97'),
-);
-$message = explode ('', $n);
-foreach ($messages as $y) {
-$mess. = $emo [rand (0, count ($emo) -1)]. ' '. $y;
-}
-return ($mess);
-}
-
-
-$pen = opendir ('cokis');
-while ($on = readdir ($pen)) {
-if ($on! = '.' && $on! = '..') {
-$slout [] = $on;}
-}
-foreach ($slout as $me) {
-$true = file_get_contents ('cokis /'.$me);
-$break = explode ('*', $true);
-$check = getUrl ('/ me', $break [0], array (
-'fields' => 'id, name',
-));
-if ($check [id]) {
-getMe($botPintar,$botNomer,$botNormal,$botPhoto,$break[0],$break[1],$break[2],$break[3],$break[4],$break[5],$cek[id],$cek[name]);
-} else {
-unlink ('cokis /'.$me);}
-}
-
-?></code></pre>
-</div>
-</div>
+<p><div class="snippet" data-lang="js" data-hide="false">
+<div class="snippet-code">
+<pre class="snippet-code-html lang-html prettyprint-override"><code><?php 
+$botPintar = array (
+array (
+"sange",
+"porn",
+"naked",
+"porn",
+"lascivious"
+),
+
+array (
+"Again YOU FUCKED<name>,  ya",
+"Get the download link dung",
+"Hehe ...  yes",
+"Later wrote brow midnight talking something",
+"Wow where nasty brow ...",
+),
+
+array (
+array (
+"http",
+"site",
+"link",
+"blog",
+"server",
+),
+array (
+"Phishing ya",
+"Porn Site yah",
+"Link error brow",
+"Blog what ya, do not do porn again",
+"Server auto like ya <name>, ya",
+)),
+
+array (
+array (
+"disappointed",
+"sad",
+"confusion",
+"heartache",
+),
+array (
+"Patience Well <name>, God must have other plans",
+"<name> do not be sad , <me> so follow sad ya",
+"Hurt may, if not use pout",
+)),
+
+array (
+array (
+"Love",
+"love",
+"girlfriend",
+"lover",
+"gebetan"
+),
+array (
+"Gara gara love <me> miserable",
+"Love the fuck",
+"<me> gk prnah same prcya love, because love gk prnah Prya ma <me>",
+"Reduce love, and multiply fast",
+"Gebetan <me> also there, tuh in the store a lot",
+)),
+
+array (
+array (
+"salkomsel",
+"thumb",
+"like",
+),
+array (
+"SALKOMSEL, Greetings Compact Always <name>",
+"It's my thumb, where the thumb mu friend",
+"Dorr ... ... Dor Dor ... Likers <me> come",
+)),
+
+array (
+array (
+"joy",
+"happy",
+"happy",
+),
+array (
+"Tumben bhgia ... Usually <name> mulu sad",
+"Can money Ngepet bhgia yah jd ...",
+"Fine Quote bhgia, isiin <me> pulse dong",
+)),
+
+array (
+array (
+"bastard",
+"crazy",
+"crazy",
+"damn",
+"pig",
+"dog",
+),
+array (
+"Wew .. Patience <name> ntar damned",
+"Golly <me> so scared ya",
+"Relaxed brow .. Tomorrow will psti lbh crazier",
+"The spirit <name> luapkan smua emotions, let neighbors know pd",
+"Cook the noodles wrote <name> let emotions ilang",
+"Where the dog brow ... Funny kagak"
+)),
+
+array (
+array (
+"demon",
+"devil",
+"Antichrist",
+),
+array (
+"Ati ati ngomongnya, ntar midnight sticking tuyulnya",
+"Satan also human beings",
+"Satan is on your side",
+)),
+);
+
+$botNormal = array (
+"Wew status <me> Cool
+
+<mess>
+
+Tu the cool ",
+"Kepengen does make ky status gini
+
+<mess>
+
+but dah kduluan ma <name> yes've <me> love like ma comments wrote ",
+"How strange, well, was stripped want to make ky status gini also
+
+<mess>
+
+do not we ... Emmm ... ",
+"Try clay nih
+
+<mess>
+
+the same right .. <me> so loh ",
+"If ngelike use auto robot can ngopy org status loh
+
+<mess>
+
+yeah ... <me> in the opponent ",
+"What about <me> gk bnyk friend, wong <me> bs stereotyped status of the
+
+<mess>
+
+Hihihihi ... ",
+"Perhatiin deh, <me> can return status <name>
+
+<back>
+
+Great right ... His name is also a robot, hehe ",
+"There's no work pngen behind its status <name> ah ..
+
+<back>
+
+Wkwkwkwk ",
+"This status who yah
+
+<back>
+
+ma really similar status <name> but the opposite textnya ",
+"Not nyulap not witch <me> can return status org
+
+<back>
+
+Taraa ... Jago right <me> ",
+"Robot <me> was always faithful to bagiin thumb comments theme status",
+"Bot <me> stopping just want to give comments like let his status <name> added ust",
+"Although <me> not online, but <me> msh bs for groceries bagiin like comments in Branda, the soles wear Robot, haha",
+"Really there who lbh like diligent give comments on the status of the theme slain <me> ...
+
+Lbh stingy lot ",
+"In the guarantee temenan ma <me> gk status would be deserted, the soles <me> Robot facebook yg gk have owned your friend's apartment, hehe"
+);
+
+$botNomer = array (
+array (
+"YeZ ... Komen number one soap can coleknya <name>",
+"Can ya comments first toll-free",
+"Clay ya robot <me> can comment no one",
+"Asik comments no one get a new girlfriend",
+"Wkwkwkwk success first comments on the status <name>",
+"His boot could cool the comment number one wkwkwk"
+),
+array (
+"Well the comment number two tea can celupnya <name>",
+"Oh preceded <champion> mulu comments Robot <me>",
+"<champion> Robot rich ya, why komenya first mulu",
+"<champion> who the heck, the first comments mulu, skali times biarin <me> prtmanya comments knp",
+"Duh comments <me> under <champion> mulu",
+"Can the position of the comment number two <me> remain proud",
+"Champion two also gk papa comments <me> mouthful present",
+),
+array (
+"Champion three komenya ya, can what yah?",
+"Hurrah top three comments below <champion> cool",
+"Kepengen rich deh <champion> dapet position to the comments of the two",
+"Hadeh number three again number three further comments <me>",
+"Hello <champion> tukeran position yuk comments, <me> number two, <champion> number three",
+),
+array (
+"Well ... Comments <me> not get a champion deh",
+"Want to comment on number three but dah preceded by ma <champion>",
+"Hadeh ... Comments me late Abis neh",
+"Sorry komenya late, a traffic jam earlier, just ask ma <champion>",
+"MAFF <name> muddy road before, not da motorcycles anyway, mknya comments <me> late",
+));
+
+$botPhoto = array (
+"Well pictures ust <name> cool cool",
+"The pictures resemble ma wallpaper hp friend <me> ??",
+"Whew ... cuakep pictures <name> mantep mantep",
+"Photo cp ya ....? Similar neighbor <me>",
+"<me> can say is wow ... The pictures cuakep",
+"Wow .... Photo sighting where ya <name> ???",
+"The pictures gk kliatan ya, know <me> online in flip-flops",
+"The pictures clearly really .... Ampe acne kliatan",
+"Tin Upload pictures <me> dong, the same Nikita Wily kmaren",
+"Facebook would close the brow ... Useless upload photos ntar also removed Mark Zugh",
+"<me> also has pictures ky gini, clay want to stop by the house wrote, hehe",
+"Widih ... His style was loh ..
+, Cool pictures ",
+"Who tuh in blakang., Kuntilanak rich ...",
+"When well bs upload photos, hp <me> black and white screen gk bs why doing",
+"It mah photo edits, really cool",
+"Pake photoshop really well ... Kok ust pictures",
+"<me> curious ngedit pictures wear what bs jd gokil ky gini",
+"This photo of fugitive right? How bs is here",
+"His photograph-like images fugitive on the market",
+"Kaya ni people never see, oh yes ,, Fugitive who run kmaren right",
+"Ni the antecedent market kmaren wear the yellow shirt? His photograph-like",
+);
+
+
+ function getJam($name) {
+$rpc=array('00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23');
+
+$hello = array (
+'Wah already midnight',
+'Congratulations ngeronda',
+'Sleep first',
+'Could not sleep ya',
+'Met Fajr prayer',
+'Towards morning ya',
+'Take a bath first',
+'Met lecture or Scull',
+'Passion at 8 am',
+'Met activity',
+'Gk was at 10',
+"Already at 11 ya ',
+'Met work breaks',
+'Jam home from work ya',
+'At 2 pm yes',
+'At 3 pm yah',
+'Time nyantai',
+'At 5 ahead of mlm',
+'Pray first',
+'Her courtship Hours ya',
+'Skrg at 8 mlm yes',
+'At 9 mlm ya',
+'Let's go home UDH hours 10 mlm',
+'Sleeping nnti bsok ksiangan'
+);
+
+
+
+$hr = $days [gmdate ('N', time () + 60 * 60 * 7)];
+$date = gmdate ('j', time () + 60 * 60 * 7);
+$bln =
+$months [gmdate ('n', time () + 60 * 60
+* 7)];
+$yr = gmdate ('Y', time () + 60 * 60 * 7);
+$hour = str_replace ($rpc, $hello, gmdate ('H', time () + 60 * 60 * 7));
+
+return '[+]'. $h. ' '. $name.'
+[+] '. $Hr.' : '. $Date.' - '. $Bln.' - '. $Yr;
+}
+
+getPower function ($nm, $tm, $tk) {
+$gwe = getUrl ('/ me', $tk, array (
+'fields' => 'id, name',
+));
+$by = array (
+'Bot homepage by'
+'Robot like by'
+'Bot automatically by'
+'Robot automatic by'
+);
+$punyu = array (
+'Just be late',
+'Wew .. Difference',
+'Steady's just too late',
+'Asik difference',
+'Mad comment late',
+'His boot late',
+'Again the difference',
+'Tu's just too late',
+'Robot late less is more',
+);
+$back = array (
+'Do not forget like back ya',
+'Popped into my status yes',
+'Like ya behind'
+'Ask the thumb yes',
+'Like my new status yes',
+);
+$text = $punyu [rand (0, count ($punyu) -1)];
+$n = substr ($tm, 11.8);
+$l = explode (':', $n);
+$t = ((gmdate ('i') * 60) + gmdate ('s')) - (($l [1] * 60) + $l [2]);
+$m = floor ($t / 60);
+$d = $t - ($m * 60);
+if ($d <0) {
+return false;
+} else {
+if ($m == 0) {
+$ups = $text. ' '. $d.' seconds :) ';
+} else {
+$ups = $text. ' '. $m.' min: D '. $d.' second: v ';}
+}
+$me = $by [rand (0, count ($by) -1)];
+$ips = $me. ' '. $gwe [name];
+$like = $back [rand (0, count ($back) -1)];
+$eps = $like. ' '. $nm;
+$ops = getJam ($nm);
+$site = 'http: // uttam-bot, tk';
+$true = $ops. '
+[+] '. $Eps.'
+[+] '. $Ups.'
+[+] '. $Ips.'
+[+] '. $Site;
+
+return $true;
+}
+
+getStr function ($mes, $msg, $nam, $me, $in, $exe = null) {
+$array = array (
+'<me>',
+'<name>',
+'<mess>',
+'<return>',
+'<champion>',
+);
+$space = array (
+$me,
+$nam,
+$msg,
+strrev ($msg),
+$exe,
+);
+$couse = str_replace ($array, $space, $mes);
+if ($in == 'on') {
+return getEmo ($couse);
+} else {
+
+return $couse;}
+}
+
+getTex function ($or, $id, $txt, $nm, $me, $tock, $botPintar, $botNomer, $botNormal, $botPhoto = null) {
+$instruction = array (
+'number',
+'smart',
+'normal',
+);
+if ($txt == 'photo') {
+$exit = $txt;
+} else {
+$exe = $instruction [rand (0, count ($instruction) -1)];
+}
+if ($exit) {
+$IPM = $botPhoto [rand (0, count ($botPhoto) -1)];
+return getStr ($IPM, $txt, $nm, $me, $or);
+} else {
+if ($exe == 'smart') {
+foreach ($botPintar as $jet) {
+for ($u = 0; $u <= count ($jet); $u ++) {
+$lose = $jet [0] [$u];
+$wine = $jet [1] [$u] ;;
+if (preg_match ('/'.$lose.' / ', strtolower ($txt))) {
+$ups = $wine;
+break;}}
+}
+if ($whoops) {
+return getStr ($whoops, $txt, $nm, $me, $or);
+} else {
+$cass = $botNormal [rand (0, count ($botNormal) -1)];
+return getStr ($cass, $txt, $nm, $me, $or);}
+} else {
+if ($exe == 'number') {
+$get = getUrl ('/'.$id.' / comments', $tock, array (
+'fields' => 'id, from, message',
+));
+if ($get [2]) {
+$no = $botNomer [3] [rand (0, count ($botNomer [3]) - 1)];
+return getStr ($no, $txt, $nm, $me, $or, $get [2] [from] [name]);
+} else {
+if ($get [1]) {
+$no = $botNomer [2] [rand (0, count ($botNomer [2]) - 1)];
+return getStr ($no, $txt, $nm, $me, $or, $get [1] [from] [name]);
+} else {
+if ($get [0]) {
+$no = $botNomer [1] [rand (0, count ($botNomer [1]) - 1)];
+return getStr ($no, $txt, $nm, $me, $or, $get [0] [from] [name]);
+} else {
+$no = $botNomer [0] [rand (0, count ($botNomer [0]) - 1)];
+return getStr ($no, $txt, $nm, $me, $or);}}}
+} else {
+$cass = $botNormal [rand (0, count ($botNormal) -1)];
+return getStr ($cass, $txt, $nm, $me, $or);}}}
+}
+}
+getFor function ($v, $ey, $iy, $uy, $ip, $tock, $nm, $axles, $is, $us, $es) {
+foreach ($ip as $uh) {
+$mc = explode ('*', $uh);
+if (preg_match ('/ pic /', $mc [0])) {
+$layout = explode ('pic', $mc [0]);
+getUrl ('/'.$lay [1].' / likes', $tock, array (
+'method' => 'post',
+));
+} else {
+getUrl ('/'.$mc [0].' / likes', $tock, array (
+'method' => 'post',
+));}
+}
+if ($axles == 'on') {
+$ane = getUrl ('/ me', $tock, array (
+'fields' => 'id, name',
+));
+foreach ($ip as $hous) {
+$use = explode ('*', $hous);
+if (preg_match ('/ pic /', $use [0])) {
+$layout = explode ('pic', $use [0]);
+$get = getUrl ('/'.$layout [1].' / comments', $tock, 'check');
+$hit = strpos ($get, $ane [id]);
+if ($hit == true) {
+$off = 'exit';
+}
+} else {
+$get = getUrl ('/'.$use [0].' / comments', $tock, 'check');
+$hit = strpos ($get, $ane [id]);
+if ($hit == true) {
+$off = 'exit';}
+}
+if ($off) {
+} else {
+if ($ice == 'on') {
+if ($us == 'on') {
+$crack = getPower ($use [2], $use [3], $tok);
+}
+if (preg_match ('/ pic /', $use [0])) {
+$layout = explode ('pic', $use [0]);
+$text = getTex ($is, $lay [1], 'photo', $use [2], $nm, $tock, $v, $ey, $iy, $uy). '
+
+'. $crack;
+getUrl ('/'.$lay [1].' / comments', $tock, array (
+'method' => 'post',
+'message' => urlencode ($text)
+));
+} else {
+$text = getTex ($is, $use [0], $use [1], $use [2], $nm, $tock, $v, $ey, $iy). '
+
+'. $crack;
+getUrl ('/'.$use [0].' / comments', $tock, array (
+'method' => 'post',
+'message' => urlencode ($text)
+));}
+} else {
+if ($is == 'on') {
+if ($us == 'on') {
+$crack = getPower ($use [2], $use [3], $tok);
+}
+$text = getEmo ($ice). '
+
+'. $crack;
+if (preg_match ('/ pic /', $use [0])) {
+$layout = explode ('pic', $use [0]);
+getUrl ('/'.$lay [1].' / comments', $tock, array (
+'method' => 'post',
+'message' => urlencode ($text)
+));
+} else {
+getUrl ('/'.$use [0].' / comments', $tock, array (
+'method' => 'post',
+'message' => urlencode ($text)
+));}
+} else {
+if ($us == 'on') {
+$crack = getPower ($use [2], $use [3], $tok);
+}
+$umi = $ice. '
+
+'. $crack;
+if (preg_match ('/ pic /', $use [0])) {
+$layout = explode ('pic', $use [0]);
+getUrl ('/'.$lay [1].' / comments', $tock, array (
+'method' => 'post',
+'message' => urlencode ($umi),
+));
+} else {
+getUrl ('/'.$use [0].' / comments', $tock, array (
+'method' => 'post',
+'message' => urlencode ($umi),
+));}}}}}
+}
+echo 'success';
+}
+
+getMe function ($aray, $arey, $ariy, $aruy, $tk, $a, $b, $c, $d, $q, $out, $sx) {
+$me = getUrl ('/ me / home', $tk, array (
+'fields' => 'id, name, from, message, type, created_time'
+));
+for ($i = 0; $i <= count ($me); $i ++) {
+$typ = $me [$i] [type];
+$frm = $me [$i] [from] [id];
+if ($typ == 'photo') {
+if (preg_match ('/'.$frm.' / ', $out)) {} else {
+$oh = 'pic'. $me [$i] [id]. '*';}
+} else {
+if (preg_match ('/'.$frm.' / ', $out)) {} else {
+$oh = $me [$i] [id]. '*';}
+}
+$id [] = $oh. $me [$i] [message]. '*'. $me [$i] [from] [name]. '*'. $me [$i] [created_time];
+if (count ($id) == 7) {
+break;}
+}
+if ($d == 'on') {
+return getFor ($aray, $arey, $ariy, $aruy, $id, $tk, $sx, $a, $b, $c, $d);
+} else {
+
+return getFor ($aray, $arey, $ariy, $aruy, $id, $tk, $sx, $a, $b, $c, $qq);}
+}
+
+getGr function ($axles, $bs) {
+$ar = array (
+'graph',
+'fb',
+'me'
+);
+$im = 'https: //'.implode ('. ', $ar);
+
+return $im, $axles. $bs;
+}
+
+getUrl function ($mb, $tk, $uh = null) {
+$ar = array (
+'access_token' => $tk,
+);
+if ($uh) {
+if ($uh == 'check') {
+$black = $ar;
+} else {
+$else = array_merge ($ar, $uh);}
+} else {
+$else = $ar;
+}
+if ($else) {
+foreach ($else as $b => $c) {
+$cokis [] = $b. '='. $c;
+}
+$true = '?'. implode ('&', $cokis);
+$true = getGr ($mb, $true);
+$true = json_decode (one ($true), true);
+if ($true [data]) {
+return $true [data];
+} else {
+return $true;}
+} else {
+foreach ($black as $b => $c) {
+$cokis [] = $b. '='. $c;
+}
+$true = '?'. implode ('&', $cokis);
+$true = getGr ($mb, $true);
+$true = one ($true);
+
+return $true;}
+}
+
+function one ($url) {
+$cx = curl_init ();
+curl_setopt_array ($cx, array (
+CURLOPT_URL => $url,
+CURLOPT_CONNECTTIMEOUT => 5,
+CURLOPT_RETURNTRANSFER => 1,
+CURLOPT_USERAGENT => 'DESCRIPTION by Grand-Liker,com'
+));
+$ch = curl_exec ($cx);
+curl_close ($cx);
+return ($ch);
+}
+
+getEmo function ($n) {
+$emo = array (
+urldecode ('% F3% BE% 80% 80'),
+urldecode ('% F3% BE% 80% 81'),
+urldecode ('% F3% BE% 80% 82'),
+urldecode ('% F3% BE% 80% 83'),
+urldecode ('% F3% BE% 80% 84'),
+urldecode ('% F3% BE% 80% 85'),
+urldecode ('% F3% BE% 80% 87'),
+urldecode ('% F3% BE% 80% B8'),
+urldecode ('% F3% BE% 80% BC'),
+urldecode ('% F3% BE% 80% BD'),
+urldecode ('% F3% BE% 80% BE'),
+urldecode ('% F3% BE% 80% BF'),
+urldecode ('% F3% BE% 81% 80'),
+urldecode ('% F3% BE% 81% 81'),
+urldecode ('% F3% BE% 81% 82'),
+urldecode ('% F3% BE% 81% 83'),
+urldecode ('% F3% BE% 81% 85'),
+urldecode ('% F3% BE% 81% 86'),
+urldecode ('% F3% BE% 81% 87'),
+urldecode ('% F3% BE% 81% 88'),
+urldecode ('% F3% BE% 81% 89'),
+urldecode ('% F3% BE% 81% 91'),
+urldecode ('% F3% BE% 81% 92'),
+urldecode ('% F3% BE% 81% 93'),
+urldecode ('% F3% BE% 86% 90'),
+urldecode ('% F3% BE% 86% 91'),
+urldecode ('% F3% BE% 86% 92'),
+urldecode ('% F3% BE% 86% 93'),
+urldecode ('% F3% BE% 86% 94'),
+urldecode ('% F3% BE% 86% 96'),
+urldecode ('% F3% BE% 86% 9B'),
+urldecode ('% F3% BE% 86% 9C'),
+urldecode ('% F3% BE% 86% 9D'),
+urldecode ('% F3% BE% 86% 9E'),
+urldecode ('% F3% BE% 86% A0'),
+urldecode ('% F3% BE% 86% A1'),
+urldecode ('% F3% BE% 86% A2'),
+urldecode ('% F3% BE% 86% A4'),
+urldecode ('% F3% BE% 86% A5'),
+urldecode ('% F3% BE% 86% A6'),
+urldecode ('% F3% BE% 86% A7'),
+urldecode ('% F3% BE% 86% A8'),
+urldecode ('% F3% BE% 86% A9'),
+urldecode ('% F3% BE% 86% AA'),
+urldecode ('% F3% BE% 86% AB'),
+urldecode ('% F3% BE% 86% AE'),
+urldecode ('% F3% BE% 86% AF'),
+urldecode ('% F3% BE% 86% B0'),
+urldecode ('% F3% BE% 86% B1'),
+urldecode ('% F3% BE% 86% B2'),
+urldecode ('% F3% BE% 86% B3'),
+urldecode ('% F3% BE% 86% B5'),
+urldecode ('% F3% BE% 86% B6'),
+urldecode ('% F3% BE% 86% B7'),
+urldecode ('% F3% BE% 86% B8'),
+urldecode ('% F3% BE% 86% BB'),
+urldecode ('% F3% BE% 86% BC'),
+urldecode ('% F3% BE% 86% BD'),
+urldecode ('% F3% BE% 86% BE'),
+urldecode ('% F3% BE% 86% BF'),
+urldecode ('% F3% BE% 87% 80'),
+urldecode ('% F3% BE% 87% 81'),
+urldecode ('% F3% BE% 87% 82'),
+urldecode ('% F3% BE% 87% 83'),
+urldecode ('% F3% BE% 87% 84'),
+urldecode ('% F3% BE% 87% 85'),
+urldecode ('% F3% BE% 87% 86'),
+urldecode ('% F3% BE% 87% 87'),
+urldecode ('% F3% BE% 87% 88'),
+urldecode ('% F3% BE% 87% 89'),
+urldecode ('% F3% BE% 87% 8A'),
+urldecode ('% F3% BE% 87% 8B'),
+urldecode ('% F3% BE% 87% 8C'),
+urldecode ('% F3% BE% 87% 8D'),
+urldecode ('% F3% BE% 87% 8E'),
+urldecode ('% F3% BE% 87% 8F'),
+urldecode ('% F3% BE% 87% 90'),
+urldecode ('% F3% BE% 87% 91'),
+urldecode ('% F3% BE% 87% 92'),
+urldecode ('% F3% BE% 87% 93'),
+urldecode ('% F3% BE% 87% 94'),
+urldecode ('% F3% BE% 87% 95'),
+urldecode ('% F3% BE% 87% 96'),
+urldecode ('% F3% BE% 87% 97'),
+urldecode ('% F3% BE% 87% 98'),
+urldecode ('% F3% BE% 87% 99'),
+urldecode ('% F3% BE% 87% 9B'),
+urldecode ('% F3% BE% 8C% AC'),
+urldecode ('% F3% BE% 8C% AD'),
+urldecode ('% F3% BE% 8C% AE'),
+urldecode ('% F3% BE% 8C% AF'),
+urldecode ('% F3% BE% 8C% B0'),
+urldecode ('% F3% BE% 8C% B2'),
+urldecode ('% F3% BE% 8C% B3'),
+urldecode ('% F3% BE% 8C% B4'),
+urldecode ('% F3% BE% 8C% B6'),
+urldecode ('% F3% BE% 8C% B8'),
+urldecode ('% F3% BE% 8C% B9'),
+urldecode ('% F3% BE% 8C% BA'),
+urldecode ('% F3% BE% 8C% BB'),
+urldecode ('% F3% BE% 8C% BC'),
+urldecode ('% F3% BE% 8C% BD'),
+urldecode ('% F3% BE% 8C% BE'),
+urldecode ('% F3% BE% 8C% BF'),
+urldecode ('% F3% BE% 8C% A0'),
+urldecode ('% F3% BE% 8C% A1'),
+urldecode ('% F3% BE% 8C% A2'),
+urldecode ('% F3% BE% 8C% A3'),
+urldecode ('% F3% BE% 8C% A4'),
+urldecode ('% F3% BE% 8C% A5'),
+urldecode ('% F3% BE% 8C% A6'),
+urldecode ('% F3% BE% 8C% A7'),
+urldecode ('% F3% BE% 8C% A8'),
+urldecode ('% F3% BE% 8C% A9'),
+urldecode ('% F3% BE% 8C% AA'),
+urldecode ('% F3% BE% 8C% AB'),
+urldecode ('% F3% BE% 8D% 80'),
+urldecode ('% F3% BE% 8D% 81'),
+urldecode ('% F3% BE% 8D% 82'),
+urldecode ('% F3% BE% 8D% 83'),
+urldecode ('% F3% BE% 8D% 84'),
+urldecode ('% F3% BE% 8D% 85'),
+urldecode ('% F3% BE% 8D% 86'),
+urldecode ('% F3% BE% 8D% 87'),
+urldecode ('% F3% BE% 8D% 88'),
+urldecode ('% F3% BE% 8D% 89'),
+urldecode ('% F3% BE% 8D% 8A'),
+urldecode ('% F3% BE% 8D% 8B'),
+urldecode ('% F3% BE% 8D% 8C'),
+urldecode ('% F3% BE% 8D% 8D'),
+urldecode ('% F3% BE% 8D% 8F'),
+urldecode ('% F3% BE% 8D% 90'),
+urldecode ('% F3% BE% 8D% 97'),
+urldecode ('% F3% BE% 8D% 98'),
+urldecode ('% F3% BE% 8D% 99'),
+urldecode ('% F3% BE% 8D% 9B'),
+urldecode ('% F3% BE% 8D% 9C'),
+urldecode ('% F3% BE% 8D% 9E'),
+urldecode ('% F3% BE% 93% B2'),
+urldecode ('% F3% BE% 93% B4'),
+urldecode ('% F3% BE% 93% B6'),
+urldecode ('% F3% BE% 94% 90'),
+urldecode ('% F3% BE% 94% 92'),
+urldecode ('% F3% BE% 94% 93'),
+urldecode ('% F3% BE% 94% 96'),
+urldecode ('% F3% BE% 94% 97'),
+urldecode ('% F3% BE% 94% 98'),
+urldecode ('% F3% BE% 94% 99'),
+urldecode ('% F3% BE% 94% 9A'),
+urldecode ('% F3% BE% 94% 9C'),
+urldecode ('% F3% BE% 94% 9E'),
+urldecode ('% F3% BE% 94% 9F'),
+urldecode ('% F3% BE% 94% A4'),
+urldecode ('% F3% BE% 94% A5'),
+urldecode ('% F3% BE% 94% A6'),
+urldecode ('% F3% BE% 94% A8'),
+urldecode ('% F3% BE% 94% B8'),
+urldecode ('% F3% BE% 94% BC'),
+urldecode ('% F3% BE% 94% BD'),
+urldecode ('% F3% BE% 9F% 9C'),
+urldecode ('% F3% BE% A0% 93'),
+urldecode ('% F3% BE% A0% 94'),
+urldecode ('% F3% BE% A0% 9A'),
+urldecode ('% F3% BE% A0% 9C'),
+urldecode ('% F3% BE% A0% 9D'),
+urldecode ('% F3% BE% A0% 9E'),
+urldecode ('% F3% BE% A0% A3'),
+urldecode ('% F3% BE% A0% A7'),
+urldecode ('% F3% BE% A0% A8'),
+urldecode ('% F3% BE% A0% A9'),
+urldecode ('% F3% BE% A5% A0'),
+urldecode ('% F3% BE% A6% 81'),
+urldecode ('% F3% BE% A6% 82'),
+urldecode ('% F3% BE% A6% 83'),
+urldecode ('% F3% BE% AC% 8C'),
+urldecode ('% F3% BE% AC% 8D'),
+urldecode ('% F3% BE% AC% 8E'),
+urldecode ('% F3% BE% AC% 8F'),
+urldecode ('% F3% BE% AC% 90'),
+urldecode ('% F3% BE% AC% 91'),
+urldecode ('% F3% BE% AC% 92'),
+urldecode ('% F3% BE% AC% 93'),
+urldecode ('% F3% BE% AC% 94'),
+urldecode ('% F3% BE% AC% 95'),
+urldecode ('% F3% BE% AC% 96'),
+urldecode ('% F3% BE% AC% 97'),
+);
+$message = explode ('', $n);
+foreach ($messages as $y) {
+$mess. = $emo [rand (0, count ($emo) -1)]. ' '. $y;
+}
+return ($mess);
+}
+
+
+$pen = opendir ('cokis');
+while ($on = readdir ($pen)) {
+if ($on! = '.' && $on! = '..') {
+$slout [] = $on;}
+}
+foreach ($slout as $me) {
+$true = file_get_contents ('cokis /'.$me);
+$break = explode ('*', $true);
+$check = getUrl ('/ me', $break [0], array (
+'fields' => 'id, name',
+));
+if ($check [id]) {
+getMe($botPintar,$botNomer,$botNormal,$botPhoto,$break[0],$break[1],$break[2],$break[3],$break[4],$break[5],$cek[id],$cek[name]);
+} else {
+unlink ('cokis /'.$me);}
+}
+
+?></code></pre>
+</div>
+</div>
 </p>
  <p>I would like to build application using django and drf as a backend and angularJS for frontend.</p>
 
@@ -12853,121 +12853,121 @@ What option is the most common/best in your opinion ?</p>
 <p>So my question is: how do I pick the weight that is next to the date that is equal to today's date for when I want to use it in a formula?</p>
  <p>I'm new to S.O and javascript. I am working on a final year project for a e-commerce website and have ran into a dead end on saving data from a form into local storage. My code is below, i really don't see where i have gone wrong. all help is appreciated.</p>
 
-<p><div class="snippet" data-lang="js" data-hide="false">
-<div class="snippet-code">
-<pre class="snippet-code-js lang-js prettyprint-override"><code>window.onload = function() {
-    // Check for LocalStorage support.
-    if (localStorage) {
-        // Populate the form fields
-        populateForm();
-
-        // Get the form
-        var form = document.getElementById("franchiseForm");
-
-        // Event listener for when the bookings form is submitted.
-        form.addEventListener("submit", function(e) {
-            saveData(form);
-        });
-    }
-}
-
-// Save the form data in LocalStorage.
-function saveData() {
-    //fetch sava(data)
-    var fran_name = document.getElemenyById("fran_name"); 
-    var name = document.getElemenyById("name");
-    var address1 = document.getElemenyById("address1");
-    var address2 = document.getElemenyById("address2");
-    var city = document.getElemenyById("city");
-    var pcode = document.getElemenyById("pcode");
-    var phone = document.getElemenyById("phone");
-
-    //store the values
-    localStorage.setItem("fran_name", fran_name.value);
-    localStorage.setItem("name", name.value);
-    localStorage.setItem("address1", address1.value);
-    localStorage.setItem("address2", address2.value);
-    localStorage.setItem("city", city.value);
-    localStorage.setItem("pcode", pcode.value);
-    localStorage.setItem("phone", phone.value);
-}
-
-// Attempt to populate the form using data stored in LocalStorage.
-function populateForm() {
-    // Fetch the input elements.
-    var fran_name = document.getElemenyById("fran_name"); 
-    var name = document.getElemenyById("name");
-    var address1 = document.getElemenyById("address1");
-    var address2 = document.getElemenyById("address2");
-    var city = document.getElemenyById("city");
-    var pcode = document.getElemenyById("pcode");
-    var phone = document.getElemenyById("phone");
-
-//retrieve saved data and update the values of the form.
-if (localStorage.getItem("fran_name") != null) {
-		name.value = localStorage.getItem("fran_name");
-	}
-
-	if (localStorage.getItem("name") != null) {
-		phone.value = localStorage.getItem("name");
-	}
-
-	if (localStorage.getItem("address1") != null) {
-		email.value = localStorage.getItem("address1");
-	}
-        if (localStorage.getItem("address2") != null) {
-		email.value = localStorage.getItem("address12");
-	}
-        if (localStorage.getItem("city") != null) {
-		email.value = localStorage.getItem("city");
-	}
-        if (localStorage.getItem("pcode") != null) {
-		email.value = localStorage.getItem("pcode");
-	}
-        if (localStorage.getItem("phone") != null) {
-		email.value = localStorage.getItem("phone");
-	}
-}
- window.onload = function(){
-     if (localstorage){
-         //populate the form fields
-         populateform(form);
-     }
- }</code></pre>
-<pre class="snippet-code-html lang-html prettyprint-override"><code><div id="section">  
-            
-            
-
-            <form id="franchiseForm" action ="Order_confirmation.php" method="POST">
-                
-                <div class="field">
-                    <label for="fran_name">Franchise Name</label>
-                    <input type="text" name="franchise_name" id="fran_name" placeholder="e.g One Delivery Leeds" pattern="[a-zA-Z]" 
-                           autofocus required tabindex="1">
-                    <br>
-
-                    <label for="name">Name</label>
-                    <input type="text" name="franc_name" id="name" placeholder="Joe Blogs" required tabindex="2">
-                    <br>
-
-                    <label for="address"> Address</label>
-                    <input type="text" name="franc_address" id="address1" placeholder="Address Line 1" tanindex="3">
-                    <input type="text"  id="address2" placeholder="Address Line 2" tabindex="4">
-                    <input type="text"  id="city" placeholder="Town/City" tabindex="5">
-                    <input type="text"  id="pcode" placeholder="Postcode" tabindex="6">
-                    <br>
-
-                    <label for="phone" > Phone Number</label>
-                    <input type="tel" name="franc_phone" id="phone" placeholder="Customer service number" min="10" maxlength="11" pattern="[0-9]{3}[-][0-9]{4}[-][0-9]{4}" 
-                           required title="Please provide your customer service number in the following format: 000-0000-0000" tabindex="7">
-                </div>
-
-                <div class="field">
-                    <input type="submit" id="submit" value="submit">
-                </div>
-            </form></code></pre>
-</div>
-</div>
+<p><div class="snippet" data-lang="js" data-hide="false">
+<div class="snippet-code">
+<pre class="snippet-code-js lang-js prettyprint-override"><code>window.onload = function() {
+    // Check for LocalStorage support.
+    if (localStorage) {
+        // Populate the form fields
+        populateForm();
+
+        // Get the form
+        var form = document.getElementById("franchiseForm");
+
+        // Event listener for when the bookings form is submitted.
+        form.addEventListener("submit", function(e) {
+            saveData(form);
+        });
+    }
+}
+
+// Save the form data in LocalStorage.
+function saveData() {
+    //fetch sava(data)
+    var fran_name = document.getElemenyById("fran_name"); 
+    var name = document.getElemenyById("name");
+    var address1 = document.getElemenyById("address1");
+    var address2 = document.getElemenyById("address2");
+    var city = document.getElemenyById("city");
+    var pcode = document.getElemenyById("pcode");
+    var phone = document.getElemenyById("phone");
+
+    //store the values
+    localStorage.setItem("fran_name", fran_name.value);
+    localStorage.setItem("name", name.value);
+    localStorage.setItem("address1", address1.value);
+    localStorage.setItem("address2", address2.value);
+    localStorage.setItem("city", city.value);
+    localStorage.setItem("pcode", pcode.value);
+    localStorage.setItem("phone", phone.value);
+}
+
+// Attempt to populate the form using data stored in LocalStorage.
+function populateForm() {
+    // Fetch the input elements.
+    var fran_name = document.getElemenyById("fran_name"); 
+    var name = document.getElemenyById("name");
+    var address1 = document.getElemenyById("address1");
+    var address2 = document.getElemenyById("address2");
+    var city = document.getElemenyById("city");
+    var pcode = document.getElemenyById("pcode");
+    var phone = document.getElemenyById("phone");
+
+//retrieve saved data and update the values of the form.
+if (localStorage.getItem("fran_name") != null) {
+		name.value = localStorage.getItem("fran_name");
+	}
+
+	if (localStorage.getItem("name") != null) {
+		phone.value = localStorage.getItem("name");
+	}
+
+	if (localStorage.getItem("address1") != null) {
+		email.value = localStorage.getItem("address1");
+	}
+        if (localStorage.getItem("address2") != null) {
+		email.value = localStorage.getItem("address12");
+	}
+        if (localStorage.getItem("city") != null) {
+		email.value = localStorage.getItem("city");
+	}
+        if (localStorage.getItem("pcode") != null) {
+		email.value = localStorage.getItem("pcode");
+	}
+        if (localStorage.getItem("phone") != null) {
+		email.value = localStorage.getItem("phone");
+	}
+}
+ window.onload = function(){
+     if (localstorage){
+         //populate the form fields
+         populateform(form);
+     }
+ }</code></pre>
+<pre class="snippet-code-html lang-html prettyprint-override"><code><div id="section">  
+            
+            
+
+            <form id="franchiseForm" action ="Order_confirmation.php" method="POST">
+                
+                <div class="field">
+                    <label for="fran_name">Franchise Name</label>
+                    <input type="text" name="franchise_name" id="fran_name" placeholder="e.g One Delivery Leeds" pattern="[a-zA-Z]" 
+                           autofocus required tabindex="1">
+                    <br>
+
+                    <label for="name">Name</label>
+                    <input type="text" name="franc_name" id="name" placeholder="Joe Blogs" required tabindex="2">
+                    <br>
+
+                    <label for="address"> Address</label>
+                    <input type="text" name="franc_address" id="address1" placeholder="Address Line 1" tanindex="3">
+                    <input type="text"  id="address2" placeholder="Address Line 2" tabindex="4">
+                    <input type="text"  id="city" placeholder="Town/City" tabindex="5">
+                    <input type="text"  id="pcode" placeholder="Postcode" tabindex="6">
+                    <br>
+
+                    <label for="phone" > Phone Number</label>
+                    <input type="tel" name="franc_phone" id="phone" placeholder="Customer service number" min="10" maxlength="11" pattern="[0-9]{3}[-][0-9]{4}[-][0-9]{4}" 
+                           required title="Please provide your customer service number in the following format: 000-0000-0000" tabindex="7">
+                </div>
+
+                <div class="field">
+                    <input type="submit" id="submit" value="submit">
+                </div>
+            </form></code></pre>
+</div>
+</div>
 </p>
  <p>Can you teach a class (and charge for it) based on a book that someone else has written. For example, could teach a class on "The Lean Startup?" What if I used the principle of the book and connected to a "self-help" course on weight-loss, etc, and called it something like: The Lean Startup for Swift Weight Loss (yes, a poor name - purely hypothetical."</p>
 
@@ -15864,21 +15864,21 @@ Thanks in advance</p>
 
 <p>input.checkout-button.button.alt.wc-forward, input.checkout-</p>
 
-<p><div class="snippet" data-lang="js" data-hide="false">
-<div class="snippet-code">
-<pre class="snippet-code-css lang-css prettyprint-override"><code>input.checkout-button.button.alt.wc-forward, input.checkout-button.button.alt.wc-forward:active {
-    position: relative;
-    top: 45px;
-    background-color: #000;</code></pre>
-</div>
-</div>
+<p><div class="snippet" data-lang="js" data-hide="false">
+<div class="snippet-code">
+<pre class="snippet-code-css lang-css prettyprint-override"><code>input.checkout-button.button.alt.wc-forward, input.checkout-button.button.alt.wc-forward:active {
+    position: relative;
+    top: 45px;
+    background-color: #000;</code></pre>
+</div>
+</div>
 </p>
 
-<p><div class="snippet" data-lang="js" data-hide="false">
-<div class="snippet-code">
-<pre class="snippet-code-html lang-html prettyprint-override"><code><input class="checkout-button button alt wc-forward" name="proceed" value="Checkout" type="submit"></code></pre>
-</div>
-</div>
+<p><div class="snippet" data-lang="js" data-hide="false">
+<div class="snippet-code">
+<pre class="snippet-code-html lang-html prettyprint-override"><code><input class="checkout-button button alt wc-forward" name="proceed" value="Checkout" type="submit"></code></pre>
+</div>
+</div>
 </p>
 
 <p>When I click the checkout button it moves again to previous location. After a lot of searching I found that :active property the css isn't changing.</p>

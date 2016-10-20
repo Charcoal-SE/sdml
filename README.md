@@ -10,12 +10,23 @@ You can use `pip` to install all the required packages for this thing:
 You will also need a working implementation of `cPickle`. You've *probably* got one, but not *all* Py2 installs came with it.
 
 ### Using it
-Once you've `git clone`d the repo, you need to run the `analyze` and `prepare` scripts:
+Once you've `git clone`d the repo, you can do one of two things:
 
+- update the data set, or
+- just run the thing already
+
+To update the data set, you need to run a few scripts. The first gets new data, the second analyzes it for specific
+attributes, and the third converts the analyzed data to a format that the classifier can load.
+
+To successfully run the first script, you need a valid [API key](https://github.com/Charcoal-SE/metasmoke/wiki/API-Documentation)
+for [metasmoke](https://github.com/Charcoal-SE/metasmoke). Read the [API docs](https://github.com/Charcoal-SE/metasmoke/wiki/API-Documentation)
+to learn how to get one.
+
+    python2 getmsdata.py INSERT_MS_API_KEY_HERE
     python2 analyze.py title body
     python2 prepare.py
 
-When those two scripts complete, you have the data set up that the classifier needs to run from. You can run the live
+When those scripts complete, you have the data set up that the classifier needs to run from. You can run the live
 classifier now (which takes data from the Stack Exchange websocket, like Smokey does):
 
     python2 ws.py
