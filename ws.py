@@ -5,9 +5,12 @@ import classify
 import bodyfetcher
 from termcolor import cprint
 
+prior_spam = 0.07
+prior_ham = 0.93
+
 def main():
     try:
-        clf = classify.NaiveBayesClassifier(0.5, 0.5)
+        clf = classify.NaiveBayesClassifier(prior_spam, prior_ham)
     except Exception as ex:
         print(ex)
         sys.exit(1)
